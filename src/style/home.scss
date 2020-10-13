@@ -1,0 +1,120 @@
+$primary_color:#2e2e2e;
+$main_text_color1: #000000;
+$main_text_color2: #ffffff;
+$main_button_color: #4285f4;
+$main_font: 'Roboto';
+$mainImage-font-size: 3.5rem;
+$mainImage-font-weight: 300;
+
+
+body{
+    font-family: $main_font;
+}
+
+.mainContent{
+    position: relative;    
+}
+
+.top-left{
+    color: $main_text_color2;
+    font-weight: $mainImage-font-weight;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+}
+
+.website-name{
+    color: $main_text_color2;
+    font-size: $mainImage-font-size;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.top-center{
+    color: $main_text_color2;
+    font-weight: $mainImage-font-weight;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+.bottom-center{
+    color: $main_text_color2;
+    font-weight: $mainImage-font-weight;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+}
+
+.mainImage-button{
+    background: transparent;
+    border: 2px solid $main_button_color;
+    color: $main_text_color2;
+    font-size: 1.2rem;
+    padding: 0.5rem 3rem;
+    position: absolute;
+    bottom: 20%;
+    left: 15%; 
+}
+
+.websiteNumbers{
+    background-color: $primary_color;
+}
+
+.websiteNumbersImage{
+    padding: 4rem;
+}
+
+.websiteServicesImage{
+    padding: 4rem;
+}
+
+.all_services{
+    color: $main_text_color1;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.all_services:hover{
+    text-decoration: none;
+    color: $main_button_color;
+}
+
+.websiteWork{
+    background-color: $primary_color;
+}
+
+.websiteWork{
+    position: relative;
+}
+
+.websiteWorkImage{
+    padding-right: 4rem;
+    position: absolute;
+    left: 6%;
+    top: 6%;
+}
+
+.haveAnIdea{
+    position: relative;
+}
+
+.haveAnIdea>h1{
+    color: $main_text_color2;
+    position: absolute;
+    top: 15%;
+    left: 12%;
+}
+
+.haveAnIdea>button{
+    background-color: $main_button_color;
+    border: 1px solid $main_button_color;
+    color: $main_text_color2;
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+
+}
