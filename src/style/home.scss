@@ -118,3 +118,57 @@ body{
     padding: 0.5rem 2rem;
 
 }
+
+.NewsLetter{
+    position: relative;
+}
+
+.NewsLetter>.newsLetterHeader1{
+    color: $main_text_color2;
+    font-size: 2.5rem;
+    font-weight: $mainImage-font-weight;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.NewsLetter>.newsLetterHeader2{
+    color: $main_text_color2;
+    font-size: 2.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+.NewsLetter>.newsletterForm{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+
+form.newsletterForm input[type=text] {
+    padding: 0.5rem 2.5rem 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+}
+  
+form.newsletterForm button {
+    float: left;
+    width: 30%;
+    padding: 0.5rem;
+    background: $main_button_color;
+    color: $main_text_color2;
+    font-size: 1.1rem;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.newsletterForm button:hover {
+    background: #0b7dda;
+}
+  
