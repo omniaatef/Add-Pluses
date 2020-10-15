@@ -1,14 +1,16 @@
-$primary_color:#2e2e2e;
-$main_text_color1: #000000;
-$main_text_color2: #ffffff;
-$main_button_color: #4285f4;
-$main_font: 'Roboto';
+@import "mainStyle";
+$main_text_color3: #696969;
 $mainImage-font-size: 3.5rem;
 $mainImage-font-weight: 300;
+$main_bgColor_mobile: #a9b8c0;
 
 
 body{
     font-family: $main_font;
+}
+
+img{
+    max-width: $images_width;
 }
 
 .mainContent{
@@ -66,23 +68,30 @@ body{
     padding: 4rem;
 }
 
+.websiteNumbersContent h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.websiteNumbersContent p{
+    font-size: 1rem;
+}
+
 .websiteServicesImage{
     padding: 4rem;
 }
 
-.all_services{
+.all_servicesLink{
     color: $main_text_color1;
     font-size: 2rem;
     font-weight: bold;
+    border-bottom: 3px solid $main_button_color;
 }
 
-.all_services:hover{
+.all_servicesLink:hover{
     text-decoration: none;
     color: $main_button_color;
-}
-
-.websiteWork{
-    background-color: $primary_color;
 }
 
 .websiteWork{
@@ -90,9 +99,15 @@ body{
 }
 
 .websiteWorkImage{
-    padding-right: 4rem;
+    padding-right: 5rem;
     position: absolute;
     left: 6%;
+    top: 6%;
+}
+
+.projectsImages{
+    position: absolute;
+    left: 15%;
     top: 6%;
 }
 
@@ -129,7 +144,7 @@ body{
     font-weight: $mainImage-font-weight;
     position: absolute;
     top: 30%;
-    left: 15%;
+    left: 25%;
 }
 
 .NewsLetter>.newsLetterHeader2{
@@ -138,13 +153,13 @@ body{
     font-weight: 700;
     position: absolute;
     top: 45%;
-    left: 15%;
+    left: 25%;
 }
 
 .NewsLetter>.newsletterForm{
     position: absolute;
     top: 75%;
-    left: 15%;
+    left: 25%;
 }
 
 form.newsletterForm input[type=text] {
@@ -159,7 +174,7 @@ form.newsletterForm input[type=text] {
 form.newsletterForm button {
     float: left;
     width: 30%;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
     background: $main_button_color;
     color: $main_text_color2;
     font-size: 1.1rem;
@@ -171,4 +186,272 @@ form.newsletterForm button {
 form.newsletterForm button:hover {
     background: #0b7dda;
 }
-  
+
+.getInTouchImage{
+    padding: 4rem;
+}
+
+.getInTouchForm input, .getInTouchForm textarea{
+    border: 1px solid $main_text_color3;
+    color: $main_text_color3;
+    width: 100%;
+}
+ 
+.getInTouchForm textarea{
+    width: 100%;
+}
+
+.msgInput{
+    padding-bottom: 4.2rem !important;
+}
+
+@media screen and (min-width: 320px) {
+    .desktop{
+        display: none;
+    }
+
+    .mainBgMobile{
+        background-color: $main_bgColor_mobile;
+    }
+
+    .mainContentMobile{
+        color: $main_text_color2;
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+
+    .mainContentMobile .mainDesc{
+        padding-top: 1rem;
+    }
+
+    .startProBtnMobile{
+        background: transparent;
+        border: 2px solid $main_button_color;
+        color: $main_text_color2;
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .websiteNumbersMobile{
+        color: $main_text_color2;
+        font-size: 1.7rem;
+    }
+
+    .websiteNumbersMobile p{
+        padding-left: 2rem;
+        font-weight: bold;
+    }
+
+    .firstWebsiteNumbersContent h2, .firstWebsiteNumbersContent p{
+        border-left: 0;
+    }
+    
+    .lastWebsiteNumbersContent h2, .lastWebsiteNumbersContent p{
+        border-right: 0;
+    }
+
+    .websiteNumbersContent{
+        padding-top: 0;
+        color: $main_text_color2;
+        text-align: center;
+    }
+
+    .websiteNumbersContent h2{
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 0;
+        margin-top: 0.5rem;
+    }
+
+    .websiteNumbersContent p{
+        margin-top: 1rem;
+        font-weight: bold;
+    }
+
+    .spacing{
+        display: none;
+    }
+
+    .secondWebsitenumbers{
+        padding-top: 0;
+    }
+
+    .lastWebsiteNumbersContent{
+        margin-bottom: 2rem;
+    }
+
+    .websiteServicesMobile, .websiteClientsMobile{
+        color: $main_text_color1;
+        font-size: 1.7rem;
+    }
+
+    .websiteServicesMobile bold, .websiteClientsMobile bold{
+        font-weight: bold;
+    }
+
+    .addPadding{
+        padding-right: 15px;
+    }
+
+    .servicesImages img{
+        padding-top: 2rem;
+    }
+
+    .servicesTopContentText, .servicesContentText{
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .all_services{
+        text-align: center;
+    }
+
+    .websiteWorkMobileContent{
+        background-color: $primary_color;
+    }
+
+    .websiteWorkMobile{
+        color: $main_text_color2;
+        font-size: 1.7rem;
+        padding-left: 1rem;
+    }
+
+    .websiteWorkMobile bold{
+        font-weight: bold;
+    }
+
+    .ourWorkImages{
+        padding: 1rem;
+    }
+
+    .ourWorkImages img{
+        padding-top: 1.5rem;
+    }
+
+    .all_projects{
+        text-align: center;
+    }
+
+    .all_projects a{
+        border-bottom: 3px solid $main_button_color;
+        color: $main_text_color2;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .all_projects a:hover{
+        color: $main_button_color;
+        text-decoration: none;
+    }
+
+    hr{
+        background-color: $main_button_color;
+    }
+
+    .haveAnIdeaMobile{
+        background-color: $primary_color;
+        color: $main_text_color2;
+    }
+
+    .haveAnIdeaContent bold{
+        font-weight: bold;
+    }
+
+    .startProjectBtnMob{
+        text-align: center;
+        padding: 2.5rem 0;
+    }
+
+    .startProject{
+        color: $main_text_color2;
+        background-color: $main_button_color;
+        border: 0;
+        text-align: center;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .clientsImage{
+        width: 40%;
+    }
+
+    .clientsDesktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .desktop{
+        display: block;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    .firstWebsiteNumbersContent h2, .firstWebsiteNumbersContent p{
+        border-left: 4px solid $main_button_color;
+    }
+    
+    .lastWebsiteNumbersContent h2, .lastWebsiteNumbersContent p{
+        border-right: 4px solid $main_button_color;
+    }
+
+    .websiteNumbersContent{
+        padding-top: 5rem;
+    }
+
+    .websiteNumbersContent h2{
+        font-size: 3rem;
+        margin-top: 0;
+    }
+
+    .websiteNumbersContent p{
+        margin-top: 0;
+        font-weight: 500;
+    }
+
+    .spacing{
+        display: block;
+    }
+
+    .secondWebsitenumbers{
+        padding-top: 1rem;
+    }
+
+    .lastWebsiteNumbersContent{
+        margin-bottom: 0;
+    }
+
+    .addPadding{
+        padding-right: 0;
+    }
+
+    .servicesImages img{
+        padding-top: 5rem;
+    }
+
+    .servicesTopContentText{
+        padding-top: 7rem;
+        padding-left: 0;
+    }
+
+    .servicesContentText{
+        padding-top: 3.5rem;
+        padding-left: 0;
+    }
+
+    .all_services{
+        text-align: start;
+    }
+
+    .clientsImage{
+        width: 80%;
+    }
+    .clientsDesktop{
+        display: flex;
+    }
+
+}
+

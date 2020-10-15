@@ -1,0 +1,53 @@
+@import "../mainStyle";
+
+.footer{
+    background-color: $primary_color;
+}
+
+.footer .footerLogo{
+    padding: 11rem 0;
+}
+
+.footer ul{
+    padding: 5rem 0;
+    color: $main_text_color2;
+    font-family: $main_font;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.footer .borders{
+    border-right: 2px solid $main_text_color2;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.footer .websiteContentFooter>li{
+    padding-bottom: 0.7rem;
+}
+
+.footer .websiteContentFooter>li:hover{
+    color: $hovering_color;
+}
+
+.footer .websiteInfoFooter>li{
+    padding-bottom: 3rem;
+}
+
+.footer .socialMediaIcons{
+    color: $main_text_color2;
+    padding-left: 3rem;
+}
+
+.footer .socialMediaIcons:hover{
+    color: $hovering_color;
+}
+
+.footer .smallFooter{
+    background-color: $main_text_color1;
+}
+
+.footer .smallFooter>p{
+    color: $main_text_color2;
+    text-align: center;
+}
