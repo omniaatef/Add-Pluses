@@ -1,0 +1,141 @@
+@import "mainStyle";
+
+img{
+    max-width: 100%;
+}
+
+hr{
+    background-color: $main_button_color;
+}
+
+.about-us-section img{
+    width: fit-content;
+    padding-left: 1rem;
+}
+
+.ourValues{
+    position: relative;
+}
+
+.ourValues h1{
+    color: $main_text_color2;
+    position: absolute;
+}
+
+.ourValuesText{
+    border-bottom: 2px solid $main_button_color;
+    border-width: revert;
+    top: 15%;
+    left: 15%;
+}
+
+.efficiencyText{
+    top: 35%;
+    left: 25%;
+}
+
+.integrityText{
+    top: 55%;
+    left: 35%;
+}
+
+.innovationText{
+    top: 75%;
+    left: 45%;
+}
+
+.companyProfile{
+    position: relative;
+}
+
+.companyProfile h1{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+.companyProfile button{
+    border: 0;
+    background-color: $main_button_color; 
+    color: $main_text_color2;
+    padding: 0.5rem 2rem;
+    position: absolute;
+    left: 20%;
+    top: 45%;
+}
+
+form input, form textarea{
+    border: 1px solid $main_text_color3;
+    color: $main_text_color3;
+    width: 100%;
+}
+
+@media screen and (min-width: 320px) {
+    .mainDesc{
+        background-color: $primary_color;
+    }
+    .addPlusesLogo{
+        width: 93%;
+    }
+    
+    .mainDesc p{
+        color: $main_text_color2;
+        font-size: 1.2rem;
+    }
+
+    .weHave h1{
+        text-align: center;
+    }
+        
+}
+
+@media screen and (min-width: 768px) {
+    .addPlusesLogo{
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        width: 22%;
+    }
+
+    .mainDesc{
+        position: relative;
+    }
+    
+    .mainDesc p{
+        color: $main_text_color2;
+        font-size: 1.2rem;
+        position: absolute;
+    }
+    
+    .mainDesc p{
+        top: 50%;
+        left: 18%;
+    }
+    
+    .mainDesc .secondDescription{
+        top: 65%;
+        left: 18%;
+        width: 50%;
+    }  
+    
+    .weHave h1{
+        text-align: center;
+        // border-bottom: 2px solid $main_button_color;
+        border-width: revert;
+        padding: 0 3rem;
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    } 
+    
+    .whoAre{
+        padding: 0 3rem;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+}
+
+
+
