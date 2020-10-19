@@ -1,0 +1,71 @@
+@import "mainStyle";
+
+.addplusesNumbers{
+    background-color: $primary_color;
+    color: $main_text_color2;
+
+}
+
+.addplusesNumbers span{
+    color: $main_text_color2;
+    font-size: 2.5rem;
+    border-bottom: 3px solid $main_button_color;
+    border-width: thick;
+    padding-bottom: 0.5rem;
+    // width: fit-content;
+}
+
+.numbersContent{
+    text-align: center;
+}
+
+.numbersContent h4{
+    padding-top: 2rem;
+}
+
+.competencies span{
+    font-size: 2.5rem;
+    border-bottom: 3px solid $main_button_color;
+    border-width: thick;
+}
+
+.competencies .row{
+    padding-top: 3rem;
+}
+
+.competencies h3{
+    color: $main_button_color;
+}
+
+.listDetails{
+    padding-top: 1rem;
+}
+
+.listDetails{
+    padding-left: 1rem;
+    list-style: none;
+}
+
+.listDetails li::before {
+    content: "\2022";
+    font-size: 1.3rem;
+    color: $main_button_color;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.kickoff{
+    background-color: $primary_color;
+}
+
+.kickoff h2{
+    font-weight: 300;
+}
+
+.kickoff h2, .kickoff p{
+    color: $main_text_color2;
+    padding-top: 3rem;
+}
+  

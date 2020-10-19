@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body {
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 320px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+.addplusesNumbers {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+.addplusesNumbers span {
+  color: #ffffff;
+  font-size: 2.5rem;
+  border-bottom: 3px solid #4285f4;
+  border-width: thick;
+  padding-bottom: 0.5rem;
+}
+
+.numbersContent {
+  text-align: center;
+}
+
+.numbersContent h4 {
+  padding-top: 2rem;
+}
+
+.competencies span {
+  font-size: 2.5rem;
+  border-bottom: 3px solid #4285f4;
+  border-width: thick;
+}
+
+.competencies .row {
+  padding-top: 3rem;
+}
+
+.competencies h3 {
+  color: #4285f4;
+}
+
+.listDetails {
+  padding-top: 1rem;
+}
+
+.listDetails {
+  padding-left: 1rem;
+  list-style: none;
+}
+
+.listDetails li::before {
+  content: "•";
+  font-size: 1.3rem;
+  color: #4285f4;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.kickoff {
+  background-color: #2e2e2e;
+}
+
+.kickoff h2 {
+  font-weight: 300;
+}
+
+.kickoff h2, .kickoff p {
+  color: #ffffff;
+  padding-top: 3rem;
+}
+
+/*# sourceMappingURL=whyUs.css.map */
