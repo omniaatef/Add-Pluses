@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 320px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+.contactHeader {
+  border-bottom: 3px solid #4285f4;
+  border-width: thick;
+  color: #ffffff;
+  font-size: 2rem;
+  position: absolute;
+  top: 18%;
+  left: 10%;
+}
+
+.mainDesc {
+  color: #ffffff;
+}
+
+.mainDesc .mailContent {
+  padding: 3rem 0;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.mainDesc .phoneContent {
+  padding: 3rem 0;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.mainDesc .addressContent {
+  padding: 5rem 0;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.mailContent span, .phoneContent span, .addressContent span {
+  padding-left: 1rem;
+}
+
+.getDirectionsBtn {
+  background-color: #4285f4;
+  border: 0;
+  color: #ffffff;
+  padding: 0.5rem 2rem;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+}
+
+.getInTouch .getInTouchHeader {
+  border-bottom: 2px solid #4285f4;
+  border-width: thick;
+  font-size: 2rem;
+}
+
+.getInTouchSelection {
+  padding: 3rem 0;
+}
+
+.getInTouchSelection select {
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+
+#positionsOptions {
+  width: 100%;
+}
+
+/*# sourceMappingURL=contactUs.css.map */

@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 320px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+.services {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+.services h3 {
+  margin-bottom: 3rem;
+}
+
+.services span {
+  border: 1px solid #8dbaff;
+  padding: 0.2rem 1rem;
+  margin-left: 0.5rem;
+}
+
+/*# sourceMappingURL=projectPage.css.map */

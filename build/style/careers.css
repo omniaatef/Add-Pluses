@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body {
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 320px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+.mainDescription {
+  width: 50%;
+}
+
+.careers .collapsible {
+  border-bottom: 1px solid #4285f4;
+  border-top: 1px solid #4285f4;
+  margin-bottom: 3rem;
+}
+
+.collapsible {
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 2rem;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.collapsible:after {
+  content: "+";
+  color: #4285f4;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "−";
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.content p {
+  color: #4285f4;
+  padding-left: 1rem;
+}
+
+.content button {
+  background-color: #4285f4;
+  border: 0;
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 0.5rem 2.5rem;
+}
+
+/*# sourceMappingURL=careers.css.map */

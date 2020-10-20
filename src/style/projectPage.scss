@@ -1,0 +1,16 @@
+@import "mainStyle";
+
+.services{
+    background-color: $primary_color;
+    color: $main_text_color2;
+}
+
+.services h3{
+    margin-bottom: 3rem;
+}
+
+.services span{
+    border: 1px solid #8dbaff;
+    padding: 0.2rem 1rem;
+    margin-left: 0.5rem;
+}

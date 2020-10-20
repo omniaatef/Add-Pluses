@@ -1,0 +1,62 @@
+@import "mainStyle";
+
+.mainDescription{
+    width: 50%;
+}
+
+.careers .collapsible{
+    border-bottom: 1px solid $main_button_color;
+    border-top: 1px solid $main_button_color;
+    margin-bottom: 3rem;
+}
+
+.collapsible {
+    background-color: transparent;
+    color: $main_text_color1;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 2rem;
+}
+
+button:focus{
+    outline: 0;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: $main_button_color;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+  }
+  
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.content p{
+    color: $main_button_color;
+    padding-left: 1rem;
+}
+
+.content button{
+    background-color: $main_button_color;
+    border: 0;
+    color: $main_text_color2;
+    font-size: 1.2rem;
+    padding: 0.5rem 2.5rem;
+}
+  
+
+// .careers h2{
+//     margin-top: 0.5rem;
+// }
