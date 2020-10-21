@@ -14,3 +14,43 @@
     padding: 0.2rem 1rem;
     margin-left: 0.5rem;
 }
+
+.technologiesSection p{
+    color: $main_button_color;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.technologiesSection .technologiesImage{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.technologiesSection .carousel-item{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.technologiesSection .carousel-indicators, .technologiesSection .carousel-inner{
+    position: inherit;
+}
+
+.technologiesSection .carousel-indicators li{
+    background-color: #8dbaff;
+}
+
+.technologiesSection .sharingIcons{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.sharingIcons a{
+    color: $main_text_color2;
+    background-color: $primary_color;
+    padding: 0.5rem;
+    margin-left: 0.3rem;
+}
+
+.sharingIcons a:hover{
+    background-color: $main_button_color;
+}
