@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../../build/style/home.css">
+        <link rel="stylesheet" href="../../build/style/ourWork.css">
         <link rel="stylesheet" href="../../build/style/header.css">
         <link rel="stylesheet" href="../../build/style/footer.css">
         <!-- <link rel="import" href="../templates/menu/header.html"> -->
@@ -170,8 +171,29 @@
             <!-- Add Pluses Work Section -->
             <!-- desktop view -->
             <div class="websiteWork desktop">
-                <img class="ourWorkBg" src="../../assets/ourWorkBg.png" alt="our work background">
-                <img class="websiteWorkImage" src="../../assets/ourWork.png" alt="addPlusesWork">
+                <!-- <img class="ourWorkBg" src="../../assets/ourWorkBg.png" alt="our work background"> -->
+                <div class="row m-0">
+                    <div class="col-md-2">
+                        <img class="websiteWorkImage" src="../../assets/ourWork.png" alt="addPlusesWork">
+                    </div>
+                    <div class="col-md-10 photoGrid">
+                    <!-- Photo Grid -->
+                    <div class="row ourWorkDetails"> 
+                        <div class="column">
+                            <img src="../../assets/so3odyProject.png">
+                            <img src="../../assets/xperience.png">
+                        </div>
+                        <div class="column2">
+                            <img src="../../assets/alfaProject.png">
+                            <img src="../../assets/twgProject.png">
+                            <div class="ourWorkText">
+                                <span>ALL PROJECTS</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </div>
+                </div>    
                 <!-- <div class="row m-0">
                     <div class="col-md-2 websiteWorkImage"> 
                     </div>
@@ -393,7 +415,7 @@
                         <!-- mobile view -->
                         <div class="row m-0 mobile pt-5">
                             <div class="col-sm-6 text-center">
-                                <img class="clientsImage pr-3" src="../../assets/fanta.png" alt="fanta">
+                                <img class="clientsImage pr-3" src="../../assets/fanta.jpg" alt="fanta">
                                 <img class="clientsImage pl-3" src="../../assets/canaries.png" alt="canaries">
                             </div>
                         </div>
@@ -411,6 +433,7 @@
             <!-- End Of Our Clients Section -->
     
             <!-- Add Pluses NewsLetter Section -->
+            <!-- Desktop -->
             <div class="NewsLetter desktop">
                 <img class="NewsLetterBg" src="../../assets/newLetterBg.png" alt="newsletter background">
                 <h1 class="newsLetterHeader1">SUBSCRIBE TO OUR</h1>
@@ -420,21 +443,33 @@
                     <button type="submit">Submit</button>
                 </form>    
             </div>
+            <!-- Mobile -->
+            <div class="newsLetter mobile">
+                <h4>SUBSCRIBE TO OUR <b>NEWSLETTER</b></h4>
+                <form class="newsletterFormMobile" action="">
+                    <input type="text" placeholder="Email" name="email">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
             <!-- End Of Add Pluses NewsLetter Section -->
     
             <!-- Get In Touch Form Section -->
             <div class="getInTouch">
                 <div class="row m-0">
                     <div class="col-md-2">
-                        <img class="getInTouchImage" src="../../assets/getInTouch.png" alt="getInTouch">
-                    </div>
+                        <img class="getInTouchImage desktop" src="../../assets/getInTouch.png" alt="getInTouch">
+                        <div class="getInTouchMobile mt-5 mb-3 mobile">
+                            <img src="../../assets/plusImg.png">
+                            <span>GET IN <b>TOUCH</b></span>
+                        </div>
+                    </div> 
                     <div class="col-md-10">
                         <form class="getInTouchForm" action="">
                             <div class="row">
-                                <div class="col-md-5 mt-5">
+                                <div class="inTouchFirstRow col-md-5 mt-5">
                                     <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Name" name="name">
                                 </div>
-                                <div class="col-md-5 mt-5">
+                                <div class="inTouchFirstRow col-md-5 mt-5">
                                     <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Email" name="email">
                                 </div>
                             </div>

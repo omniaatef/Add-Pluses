@@ -2,6 +2,10 @@ body {
   font-family: "Roboto";
 }
 
+button:focus {
+  outline: 0;
+}
+
 @media screen and (min-width: 320px) {
   .desktop {
     display: none;

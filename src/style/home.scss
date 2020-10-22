@@ -95,14 +95,27 @@ img{
 }
 
 .websiteWork{
-    position: relative;
+    background-image: url("../../assets/ourWorkBg.png");
+    height: 1224px;
 }
 
 .websiteWorkImage{
+    padding: 4rem;
+}
+
+.ourWorkText{
+    padding: 5rem;
+}
+
+.websiteWork span{
+    border-bottom: 2px solid $main_button_color;
+    border-width: thick;
+    color: $main_text_color2;
+    font-size: 1.7rem;
+}
+
+.photoGrid{
     padding-right: 5rem;
-    position: absolute;
-    left: 6%;
-    top: 6%;
 }
 
 .projectsImages{
@@ -232,6 +245,14 @@ form.newsletterForm button:hover {
         padding: 0.5rem 2rem;
         margin-top: 1rem;
         margin-bottom: 2rem;
+    }
+
+    .startProBtnMobile:focus{
+        outline: 0;
+    }
+
+    .startProBtnMobile:hover{
+        background: $main_button_color;
     }
     
     .websiteNumbersMobile{
@@ -379,6 +400,41 @@ form.newsletterForm button:hover {
     .clientsDesktop{
         display: none;
     }
+
+    .newsLetter{
+        background-color: $primary_color;
+    }
+
+    .newsLetter h4{
+        color: $main_text_color2;
+        padding: 3rem 3rem 1rem 3rem;
+    }
+
+    .newsLetter .newsletterFormMobile{
+        padding: 1rem 1rem 3rem 1rem;
+    }
+
+    .newsletterFormMobile input{
+        float: left;
+        padding: 0.2rem 0.2rem 0.2rem 0.5rem;
+    }
+
+    .newsletterFormMobile button{
+        padding: 0.2rem 0.5rem;
+        background: #4285f4;
+        color: #ffffff;
+        font-size: 1.1rem;
+        border: 1px solid grey;
+        border-left: none;
+    }
+
+    .getInTouchMobile{
+        font-size: 1.7rem;
+    }
+
+    .inTouchFirstRow{
+        margin-top: 0 !important;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -438,7 +494,7 @@ form.newsletterForm button:hover {
     }
 
     .servicesContentText{
-        padding-top: 3.5rem;
+        padding-top: 5rem;
         padding-left: 0;
     }
 
@@ -452,6 +508,11 @@ form.newsletterForm button:hover {
     .clientsDesktop{
         display: flex;
     }
+
+    .inTouchFirstRow{
+        margin-top: 3rem !important;
+    }
+
 
 }
 
