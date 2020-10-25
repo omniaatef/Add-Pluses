@@ -44,12 +44,14 @@
         <!-- desktop view -->
         <div class="content">
             <div class="mainContent desktop">
-                <img src="../../assets/mainImage.png" alt="mainImage">
-                <h1 class="top-left">WELCOME TO</h1>
-                <h1 class="website-name">ADD PLUSES</h1>
-                <h1 class="top-center">A Fully Integrated Creative</h1>
-                <h1 class="bottom-center">Technology House</h1>
-                <button class="mainImage-button">START YOUR PROJECT NOW</button>
+                <!-- <img src="../../assets/mainImage.png" alt="mainImage"> -->
+                <div class="mainContentText">
+                    <h1 class="top-left">WELCOME TO</h1>
+                    <h1 class="website-name">ADD PLUSES</h1>
+                    <h1 class="top-center">A Fully Integrated Creative</h1>
+                    <h1 class="bottom-center">Technology House</h1>
+                    <button class="mainImage-button">START YOUR PROJECT NOW</button>
+                </div>
             </div>
             <!-- mobile view -->
             <div class="mainBgMobile mobile">
@@ -60,19 +62,50 @@
                     <button class="startProBtnMobile">START YOUR PROJECT NOW</button>
                 </div>
             </div>
-            <img class="mobile" src="../../assets/mainImageMobile.png" alt="mainImageMobile">
+            <img class="mobile" src="../../assets/mainImageMobile.png" alt="mainImageMobile" style="width: 100%">
             <!-- End Of Main Image-->
     
             <!-- Add Pluses In Numbers Section-->
             <div class="websiteNumbers">
-                <div class="row m-0">
+                <div class="mobileTablet">
+                    <div class="row m-0">
+                        <div class="col-md-5">
+                            <div class="websiteNumbersMobile pt-5">
+                                <img src="../../assets/plusImg.png" alt="plusImg">
+                                <span>ADD PLUSES</span>
+                                <p class="mb-0">IN NUMBERS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-0">
+                        <div class="websiteNumbersContent firstWebsiteNumbersContent col-md-5">
+                            <h2>+350</h2>
+                            <p>DELIVERED PROJECTS</p>
+                        </div>
+                        <div class="websiteNumbersContent col-md-5">
+                            <h2>+1.2 M</h2>
+                            <p>HOURS OF DEVELOPMENT</p>
+                        </div>
+                    </div>
+                    <div class="row m-0 pb-5">
+                        <div class="websiteNumbersContent secondWebsitenumbers col-md-5">
+                            <h2>+16</h2>
+                            <p>YEARS OF EXPERIENCE</p>
+                        </div>
+                        <div class="websiteNumbersContent secondWebsitenumbers col-md-5">
+                            <h2>+123</h2>
+                            <p>HAPPY CLIENTS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-0 websiteDesktop">
                     <div class="col-md-2">
-                        <img class="desktop websiteNumbersImage" src="../../assets/addPlusesNumbers.png" alt="addPlusesNumbers">
-                        <div class="websiteNumbersMobile mobile pt-5">
+                        <img class="websiteNumbersImage" src="../../assets/addPlusesNumbers.png" alt="addPlusesNumbers">
+                        <!-- <div class="websiteNumbersMobile mobile pt-5">
                             <img src="../../assets/plusImg.png" alt="plusImg">
                             <span>ADD PLUSES</span>
                             <p class="mb-0">IN NUMBERS</p>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-md-1">&nbsp;</div>
                     <div class="col-md-9">
@@ -104,7 +137,57 @@
     
             <!-- Add Pluses Services Section-->
             <div class="websiteServices">
-                <div class="row m-0">
+                <div class="mobileTablet">
+                    <div class="row m-0">
+                        <div class="col-md-4">
+                            <div class="websiteServicesMobile pt-5">
+                                <img src="../../assets/plusImg.png" alt="plusImg">
+                                <span>OUR <bold>SERVICES</bold></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-0">
+                        <div class="addPadding col-md-5 text-center">
+                            <img src="../../assets/web app.svg" alt="web application" style="width: fit-content;">
+                            <h5>WEB APPLICATION DEVELOPMENT</h5>
+                        </div>
+                        <div class="col-md-1">&nbsp;</div>
+                        <div class="addPadding col-md-5 text-center">
+                            <img src="../../assets/ecom.svg" alt="Ecommerce" style="width: fit-content;">
+                            <h5>E-COMMERCE</h5>
+                        </div>                    
+                    </div>
+                    <div class="row m-0">
+                        <div class="addPadding col-md-5 text-center">
+                            <img src="../../assets/ux.svg" alt="user experience" style="width: fit-content; padding-top: 1rem;">
+                            <h5>USER EXPERIENCE DEVELOPMENT</h5>
+                        </div>
+                        <div class="col-md-1">&nbsp;</div>                        
+                        <div class="addPadding col-md-5 text-center">
+                                <img src="../../assets/mob app.svg" alt="mobile application" style="width: fit-content; padding-top: 1rem;">
+                                <h5>MOBILE APPLICATION DEVELOPMENT</h5>
+                        </div>
+                    </div>
+                    <div class="row m-0">
+                        <div class="addPadding col-md-5 text-center">
+                            <img src="../../assets/branding.svg" alt="branding" style="width: fit-content; padding-top: 1rem;">
+                            <h5>BRANDING</h5>
+                        </div>
+                        <div class="col-md-1">&nbsp;</div>                                                
+                        <div class="addPadding col-md-5 text-center">
+                            <img src="../../assets/business process.svg" alt="business process" style="width: fit-content; padding-top: 1rem;">
+                            <h5>BUSINESS PROCESS AUTOMATION</h5>
+                        </div>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-md-4">&nbsp;</div>
+                        <div class="col-md-4 pt-4 pb-5 all_services">
+                            <a class="all_servicesLink" href="">ALL SERVICES</a>
+                        </div>
+                        <div class="col-md-4">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="row m-0 websiteDesktop">
                     <div class="col-md-2">
                         <img class="websiteServicesImage desktop" src="../../assets/addPlusesServices.png" alt="addPlusesServices">
                         <div class="websiteServicesMobile mobile pt-5">
@@ -169,12 +252,47 @@
             <!-- End Of Add Pluses Services Section-->
     
             <!-- Add Pluses Work Section -->
+            <div class="mobileTablet websiteWorkTablet">
+                <div class="row m-0">
+                    <div class="col-md-4">
+                        <div class="websiteServicesMobile pt-5">
+                            <img src="../../assets/plusImg.png" alt="plusImg">
+                            <span>OUR <bold>WORK</bold></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-0">
+                    <div class="col-md-12 photoGrid">
+                        <!-- Photo Grid -->
+                        <div class="row ourWorkDetails"> 
+                            <div class="column">
+                                <img src="../../assets/so3odyProject.png">
+                                <img src="../../assets/xperience.png">
+                            </div>
+                            <div class="column2">
+                                <img src="../../assets/alfaProject.png">
+                                <img src="../../assets/twgProject.png">
+                            </div>
+                        </div>
+                        <div class="row m-0">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <div class="ourWorkText">
+                                    <span>ALL PROJECTS</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
             <!-- desktop view -->
-            <div class="websiteWork desktop">
+            <div class="websiteWork websiteDesktop">
                 <!-- <img class="ourWorkBg" src="../../assets/ourWorkBg.png" alt="our work background"> -->
                 <div class="row m-0">
                     <div class="col-md-2">
-                        <img class="websiteWorkImage" src="../../assets/ourWork.png" alt="addPlusesWork">
+                        <img class="websiteWorkImage" src="../../assets/ourWork.png" alt="addPlusesWork">     
                     </div>
                     <div class="col-md-10 photoGrid">
                     <!-- Photo Grid -->
@@ -255,9 +373,13 @@
     
             <!-- Add Pluses An Idea Section -->
             <!-- desktop view -->
-            <div class="haveAnIdea desktop">
-                <img class="haveIdeaBg" src="../../assets/ideaBg.png" alt="have an idea background">
+            <div class="haveAnIdea websiteDesktop">
+                <img class="haveIdeaBg " src="../../assets/ideaBg.png" alt="have an idea background">
                 <h1 style="font-weight: 300">HAVE AN IDEA? <bold style="font-weight: 700">LET'S TALK ABOUT IT.</bold></h1>
+                <button class="startProject-button">START YOUR PROJECT NOW</button>
+            </div>
+            <div class="haveAnIdeaTablet desktop">
+                <h4 style="font-weight: 300">HAVE AN IDEA? <bold style="font-weight: 700">LET'S TALK ABOUT IT.</bold></h4>
                 <button class="startProject-button">START YOUR PROJECT NOW</button>
             </div>
             <!-- mobile -->
@@ -434,8 +556,17 @@
     
             <!-- Add Pluses NewsLetter Section -->
             <!-- Desktop -->
-            <div class="NewsLetter desktop">
+            <div class="NewsLetter websiteDesktop">
                 <img class="NewsLetterBg" src="../../assets/newLetterBg.png" alt="newsletter background">
+                <h1 class="newsLetterHeader1">SUBSCRIBE TO OUR</h1>
+                <h1 class="newsLetterHeader2">NEWS LETTER</h1>
+                <form class="newsletterForm" action="">
+                    <input type="text" placeholder="Email" name="email">
+                    <button type="submit">Submit</button>
+                </form>    
+            </div>
+
+            <div class="NewsLetterTablet desktop">
                 <h1 class="newsLetterHeader1">SUBSCRIBE TO OUR</h1>
                 <h1 class="newsLetterHeader2">NEWS LETTER</h1>
                 <form class="newsletterForm" action="">
@@ -454,7 +585,7 @@
             <!-- End Of Add Pluses NewsLetter Section -->
     
             <!-- Get In Touch Form Section -->
-            <div class="getInTouch">
+            <div class="getInTouch mb-5">
                 <div class="row m-0">
                     <div class="col-md-2">
                         <img class="getInTouchImage desktop" src="../../assets/getInTouch.png" alt="getInTouch">

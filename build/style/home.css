@@ -32,53 +32,6 @@ img {
   max-width: 100%;
 }
 
-.mainContent {
-  position: relative;
-}
-
-.top-left {
-  color: #ffffff;
-  font-weight: 300;
-  position: absolute;
-  top: 20%;
-  left: 4%;
-}
-
-.website-name {
-  color: #ffffff;
-  font-size: 3.5rem;
-  position: absolute;
-  top: 30%;
-  left: 15%;
-}
-
-.top-center {
-  color: #ffffff;
-  font-weight: 300;
-  position: absolute;
-  top: 45%;
-  left: 15%;
-}
-
-.bottom-center {
-  color: #ffffff;
-  font-weight: 300;
-  position: absolute;
-  top: 52%;
-  left: 15%;
-}
-
-.mainImage-button {
-  background: transparent;
-  border: 2px solid #4285f4;
-  color: #ffffff;
-  font-size: 1.2rem;
-  padding: 0.5rem 3rem;
-  position: absolute;
-  bottom: 20%;
-  left: 15%;
-}
-
 .websiteNumbers {
   background-color: #2e2e2e;
 }
@@ -113,28 +66,11 @@ img {
   color: #4285f4;
 }
 
-.websiteWork {
-  background-image: url("../../assets/ourWorkBg.png");
-  height: 1224px;
-}
-
-.websiteWorkImage {
-  padding: 4rem;
-}
-
-.ourWorkText {
-  padding: 5rem;
-}
-
 .websiteWork span {
   border-bottom: 2px solid #4285f4;
   border-width: thick;
   color: #ffffff;
   font-size: 1.7rem;
-}
-
-.photoGrid {
-  padding-right: 5rem;
 }
 
 .projectsImages {
@@ -241,6 +177,10 @@ form.newsletterForm button:hover {
     display: none;
   }
 
+  .mobileTablet {
+    display: block;
+  }
+
   .mainBgMobile {
     background-color: #a9b8c0;
   }
@@ -271,6 +211,14 @@ form.newsletterForm button:hover {
 
   .startProBtnMobile:hover {
     background: #4285f4;
+  }
+
+  .websiteDesktop {
+    display: none;
+  }
+
+  .websiteNumbersImage {
+    display: none;
   }
 
   .websiteNumbersMobile {
@@ -345,6 +293,10 @@ form.newsletterForm button:hover {
 
   .all_services {
     text-align: center;
+  }
+
+  .websiteWorkImage {
+    display: none;
   }
 
   .websiteWorkMobileContent {
@@ -463,12 +415,49 @@ form.newsletterForm button:hover {
     display: none;
   }
 
-  .firstWebsiteNumbersContent h2, .firstWebsiteNumbersContent p {
-    border-left: 4px solid #4285f4;
+  .mainContent {
+    background-image: url("../../assets/mainImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 366px;
   }
 
-  .lastWebsiteNumbersContent h2, .lastWebsiteNumbersContent p {
-    border-right: 4px solid #4285f4;
+  .mainContentText {
+    padding: 2rem;
+  }
+
+  .top-left {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 2rem !important;
+    padding-top: 1rem;
+  }
+
+  .website-name {
+    color: #ffffff;
+    font-size: 3rem !important;
+  }
+
+  .top-center {
+    color: #ffffff;
+    font-size: 1.5rem !important;
+    font-weight: 300;
+    padding-top: 1rem;
+  }
+
+  .bottom-center {
+    color: #ffffff;
+    font-size: 1.5rem !important;
+    font-weight: 300;
+  }
+
+  .mainImage-button {
+    background: transparent;
+    border: 2px solid #4285f4;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 0.5rem 3rem;
+    margin-top: 1.5rem;
   }
 
   .websiteNumbersContent {
@@ -483,10 +472,6 @@ form.newsletterForm button:hover {
   .websiteNumbersContent p {
     margin-top: 0;
     font-weight: 500;
-  }
-
-  .spacing {
-    display: block;
   }
 
   .secondWebsitenumbers {
@@ -519,6 +504,54 @@ form.newsletterForm button:hover {
     text-align: start;
   }
 
+  .websiteWorkTablet {
+    background-color: #2e2e2e;
+  }
+
+  .websiteWorkImage {
+    display: none;
+  }
+
+  .mobileTablet .ourWorkDetails {
+    margin-top: 2rem;
+  }
+
+  .photoGrid {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  .ourWorkText {
+    padding: 2rem;
+  }
+
+  .websiteWorkTablet span {
+    border-bottom: 2px solid #4285f4;
+    border-width: thick;
+    color: #ffffff;
+    font-size: 1.7rem;
+  }
+
+  .haveAnIdeaTablet, .NewsLetterTablet {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 3rem;
+    text-align: center;
+  }
+
+  .NewsLetterTablet {
+    padding: 5rem;
+  }
+
+  .haveAnIdeaTablet > button {
+    background-color: #4285f4;
+    color: #ffffff;
+    border: 1px solid #4285f4;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+  }
+
   .clientsImage {
     width: 80%;
   }
@@ -529,6 +562,85 @@ form.newsletterForm button:hover {
 
   .inTouchFirstRow {
     margin-top: 3rem !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobileTablet {
+    display: none;
+  }
+
+  .mainContent {
+    height: 655px;
+  }
+
+  .mainContentText {
+    padding: 9rem 4rem;
+  }
+
+  .top-left {
+    font-size: 2.5rem !important;
+    padding-top: 0;
+  }
+
+  .website-name {
+    font-size: 3.5rem;
+    padding-left: 9rem;
+    padding-top: 1rem;
+  }
+
+  .top-center {
+    color: #ffffff;
+    font-size: 2.5rem !important;
+    font-weight: 300;
+    padding-left: 9rem;
+  }
+
+  .bottom-center {
+    font-size: 2.5rem !important;
+    padding-left: 9rem;
+  }
+
+  .mainImage-button {
+    margin-left: 9rem;
+    margin-top: 1rem;
+  }
+
+  .websiteNumbersImage {
+    display: block;
+  }
+
+  .websiteDesktop {
+    display: flex;
+  }
+
+  .spacing {
+    display: block;
+  }
+
+  .firstWebsiteNumbersContent h2, .firstWebsiteNumbersContent p {
+    border-left: 4px solid #4285f4;
+  }
+
+  .lastWebsiteNumbersContent h2, .lastWebsiteNumbersContent p {
+    border-right: 4px solid #4285f4;
+  }
+
+  .websiteWorkImage {
+    display: block;
+    padding: 4rem;
+  }
+
+  .websiteWork {
+    background-image: url("../../assets/ourWorkBg.png");
+    height: 1224px;
+  }
+
+  .photoGrid {
+    padding-right: 5rem;
+  }
+
+  .ourWorkText {
+    padding: 5rem;
   }
 }
 

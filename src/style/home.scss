@@ -13,52 +13,7 @@ img{
     max-width: $images_width;
 }
 
-.mainContent{
-    position: relative;    
-}
 
-.top-left{
-    color: $main_text_color2;
-    font-weight: $mainImage-font-weight;
-    position: absolute;
-    top: 20%;
-    left: 4%;
-}
-
-.website-name{
-    color: $main_text_color2;
-    font-size: $mainImage-font-size;
-    position: absolute;
-    top: 30%;
-    left: 15%;
-}
-
-.top-center{
-    color: $main_text_color2;
-    font-weight: $mainImage-font-weight;
-    position: absolute;
-    top: 45%;
-    left: 15%;
-}
-
-.bottom-center{
-    color: $main_text_color2;
-    font-weight: $mainImage-font-weight;
-    position: absolute;
-    top: 52%;
-    left: 15%;
-}
-
-.mainImage-button{
-    background: transparent;
-    border: 2px solid $main_button_color;
-    color: $main_text_color2;
-    font-size: 1.2rem;
-    padding: 0.5rem 3rem;
-    position: absolute;
-    bottom: 20%;
-    left: 15%; 
-}
 
 .websiteNumbers{
     background-color: $primary_color;
@@ -94,28 +49,11 @@ img{
     color: $main_button_color;
 }
 
-.websiteWork{
-    background-image: url("../../assets/ourWorkBg.png");
-    height: 1224px;
-}
-
-.websiteWorkImage{
-    padding: 4rem;
-}
-
-.ourWorkText{
-    padding: 5rem;
-}
-
 .websiteWork span{
     border-bottom: 2px solid $main_button_color;
     border-width: thick;
     color: $main_text_color2;
     font-size: 1.7rem;
-}
-
-.photoGrid{
-    padding-right: 5rem;
 }
 
 .projectsImages{
@@ -223,6 +161,10 @@ form.newsletterForm button:hover {
         display: none;
     }
 
+    .mobileTablet{
+        display: block;
+    }
+
     .mainBgMobile{
         background-color: $main_bgColor_mobile;
     }
@@ -253,6 +195,14 @@ form.newsletterForm button:hover {
 
     .startProBtnMobile:hover{
         background: $main_button_color;
+    }
+
+    .websiteDesktop{
+        display: none;
+    }
+
+    .websiteNumbersImage{
+        display: none;
     }
     
     .websiteNumbersMobile{
@@ -327,6 +277,10 @@ form.newsletterForm button:hover {
 
     .all_services{
         text-align: center;
+    }
+
+    .websiteWorkImage{
+        display: none;
     }
 
     .websiteWorkMobileContent{
@@ -446,12 +400,49 @@ form.newsletterForm button:hover {
         display: none;
     }
 
-    .firstWebsiteNumbersContent h2, .firstWebsiteNumbersContent p{
-        border-left: 4px solid $main_button_color;
+    .mainContent{
+        background-image: url("../../assets/mainImage.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 366px;   
     }
+
+    .mainContentText{
+        padding: 2rem;
+    } 
     
-    .lastWebsiteNumbersContent h2, .lastWebsiteNumbersContent p{
-        border-right: 4px solid $main_button_color;
+    .top-left{
+        color: $main_text_color2;
+        font-weight: $mainImage-font-weight;
+        font-size: 2rem !important;
+        padding-top: 1rem;
+    }
+
+    .website-name{
+        color: $main_text_color2;
+        font-size: 3rem !important;
+    }
+
+    .top-center{
+        color: $main_text_color2;
+        font-size: 1.5rem !important;
+        font-weight: $mainImage-font-weight;
+        padding-top: 1rem;
+    }
+
+    .bottom-center{
+        color: $main_text_color2;
+        font-size: 1.5rem !important;
+        font-weight: $mainImage-font-weight;
+    }
+
+    .mainImage-button{
+        background: transparent;
+        border: 2px solid $main_button_color;
+        color: $main_text_color2;
+        font-size: 1.2rem;
+        padding: 0.5rem 3rem;
+        margin-top: 1.5rem;
     }
 
     .websiteNumbersContent{
@@ -466,10 +457,6 @@ form.newsletterForm button:hover {
     .websiteNumbersContent p{
         margin-top: 0;
         font-weight: 500;
-    }
-
-    .spacing{
-        display: block;
     }
 
     .secondWebsitenumbers{
@@ -502,6 +489,54 @@ form.newsletterForm button:hover {
         text-align: start;
     }
 
+    .websiteWorkTablet{
+        background-color: $primary_color;
+    }
+
+    .websiteWorkImage {
+        display: none;
+    }
+
+    .mobileTablet .ourWorkDetails{
+        margin-top: 2rem;
+    }
+
+    .photoGrid{
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+    .ourWorkText{
+        padding: 2rem;
+    }
+
+    .websiteWorkTablet span{
+        border-bottom: 2px solid $main_button_color;
+        border-width: thick;
+        color: $main_text_color2;
+        font-size: 1.7rem;
+    }
+
+    .haveAnIdeaTablet, .NewsLetterTablet{
+        background-color: $primary_color;
+        color: $main_text_color2;
+        padding: 3rem;
+        text-align: center;
+    }
+
+    .NewsLetterTablet{
+        padding: 5rem;
+    }
+
+    .haveAnIdeaTablet>button{
+        background-color: $main_button_color;
+        color: $main_text_color2;
+        border: 1px solid $main_button_color;
+        font-size: 1.5rem;
+        padding: 0.5rem 2rem;
+        margin-top: 1rem;
+    }
+
     .clientsImage{
         width: 80%;
     }
@@ -514,5 +549,85 @@ form.newsletterForm button:hover {
     }
 
 
+}
+
+@media screen and (min-width: 1200px) {
+    .mobileTablet{
+        display: none;
+    }
+    
+    .mainContent{
+        height: 655px;   
+    }
+
+    .mainContentText{
+        padding: 9rem 4rem;
+    }
+
+    .top-left{
+        font-size: 2.5rem !important;
+        padding-top: 0;
+    }
+    
+    .website-name{
+        font-size: $mainImage-font-size;
+        padding-left: 9rem;
+        padding-top: 1rem;
+    }
+    
+    .top-center{
+        color: $main_text_color2;
+        font-size: 2.5rem !important;
+        font-weight: $mainImage-font-weight;
+        padding-left: 9rem;
+    }
+    
+    .bottom-center{
+        font-size: 2.5rem !important;
+        padding-left: 9rem;
+    }
+    
+    .mainImage-button{
+        margin-left: 9rem;
+        margin-top: 1rem;
+    }
+
+    .websiteNumbersImage{
+        display: block;
+    }
+
+    .websiteDesktop{
+        display: flex;
+    }
+
+    .spacing{
+        display: block;
+    }
+
+    .firstWebsiteNumbersContent h2, .firstWebsiteNumbersContent p{
+        border-left: 4px solid $main_button_color;
+    }
+    
+    .lastWebsiteNumbersContent h2, .lastWebsiteNumbersContent p{
+        border-right: 4px solid $main_button_color;
+    }
+
+    .websiteWorkImage{
+        display: block;
+        padding: 4rem;
+    }
+    
+    .websiteWork{
+        background-image: url("../../assets/ourWorkBg.png");
+        height: 1224px;
+    }
+
+    .photoGrid{
+        padding-right: 5rem;
+    }
+
+    .ourWorkText{
+        padding: 5rem;
+    }
 }
 

@@ -38,7 +38,6 @@
 }
   
 .column2{
-    margin-top: 5rem;
     vertical-align: middle;
 }
   
@@ -60,6 +59,12 @@
     .column, .column2 {
       flex: 100%;
       max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .column2{
+        margin-top: 5rem;
     }
 }
 
