@@ -13,11 +13,11 @@ hr{
     padding-left: 1rem;
 }
 
-.ourValues{
+.ourValuesDesktop{
     position: relative;
 }
 
-.ourValues h1{
+.ourValuesDesktop h1{
     color: $main_text_color2;
     position: absolute;
 }
@@ -44,26 +44,6 @@ hr{
     left: 45%;
 }
 
-.companyProfile{
-    position: relative;
-}
-
-.companyProfile h1{
-    position: absolute;
-    left: 20%;
-    top: 20%;
-}
-
-.companyProfile button{
-    border: 0;
-    background-color: $main_button_color; 
-    color: $main_text_color2;
-    padding: 0.5rem 2rem;
-    position: absolute;
-    left: 20%;
-    top: 45%;
-}
-
 form input, form textarea{
     border: 1px solid $main_text_color3;
     color: $main_text_color3;
@@ -74,6 +54,16 @@ form input, form textarea{
     .mainDesc{
         background-color: $primary_color;
     }
+
+    .desktopOnly{
+        display: none;
+    }
+
+    .ourValuesMobile span, .ourValuesMobile p{
+        color: $main_text_color2;
+        font-size: 2rem;
+    }
+
     .addPlusesLogo{
         width: 93%;
     }
@@ -83,21 +73,66 @@ form input, form textarea{
         font-size: 1.2rem;
     }
 
+    .secondDescription{
+        padding-bottom: 4rem;
+    }
+
     .weHave h1{
         text-align: center;
+    }
+
+    .ourValuesMobile{
+        background-color: $primary_color;
+    }
+
+    .companyProfile button{
+        border: 0;
+        background-color: $main_button_color; 
+        color: $main_text_color2;
+        padding: 0.5rem 2rem;
     }
         
 }
 
 @media screen and (min-width: 768px) {
+    .mainDesc{
+        text-align: center;
+    }
+
+    .addPlusesLogo{
+        width: 50%;
+    }
+
+    .weHave h1{
+        text-align: center;
+        // border-bottom: 2px solid $main_button_color;
+        border-width: revert;
+        padding: 0 3rem;
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    } 
+
+    .haveAnIdeaContent{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .desktopOnly{
+        display: block;
+    }
+
     .addPlusesLogo{
         position: absolute;
         top: 10%;
         left: 15%;
         width: 22%;
-    }
+    }  
 
     .mainDesc{
+        text-align: inherit;
         position: relative;
     }
     
@@ -116,26 +151,38 @@ form input, form textarea{
         top: 65%;
         left: 18%;
         width: 50%;
-    }  
+    }
+
+    .mobileTablet{
+        display: none;
+    }
+
+    .companyProfile{
+        position: relative;
+    }
     
-    .weHave h1{
-        text-align: center;
-        // border-bottom: 2px solid $main_button_color;
-        border-width: revert;
-        padding: 0 3rem;
-        margin-bottom: 2rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
-    } 
+    .companyProfile h1{
+        position: absolute;
+        left: 20%;
+        top: 20%;
+    }
     
+    .companyProfile button{
+        position: absolute;
+        left: 20%;
+        top: 45%;
+    }
+
+    .haveAnIdeaContent{
+        text-align: inherit;
+    }
+
     .whoAre{
         padding: 0 3rem;
         margin-bottom: 3rem;
         margin-left: 3rem;
         margin-right: 3rem;
     }
-    
 }
-
 
 

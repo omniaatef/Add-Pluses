@@ -2,6 +2,10 @@ body {
   font-family: "Roboto";
 }
 
+button:focus {
+  outline: 0;
+}
+
 @media screen and (min-width: 320px) {
   .desktop {
     display: none;
@@ -33,11 +37,11 @@ hr {
   padding-left: 1rem;
 }
 
-.ourValues {
+.ourValuesDesktop {
   position: relative;
 }
 
-.ourValues h1 {
+.ourValuesDesktop h1 {
   color: #ffffff;
   position: absolute;
 }
@@ -64,26 +68,6 @@ hr {
   left: 45%;
 }
 
-.companyProfile {
-  position: relative;
-}
-
-.companyProfile h1 {
-  position: absolute;
-  left: 20%;
-  top: 20%;
-}
-
-.companyProfile button {
-  border: 0;
-  background-color: #4285f4;
-  color: #ffffff;
-  padding: 0.5rem 2rem;
-  position: absolute;
-  left: 20%;
-  top: 45%;
-}
-
 form input, form textarea {
   border: 1px solid #696969;
   color: #696969;
@@ -95,6 +79,15 @@ form input, form textarea {
     background-color: #2e2e2e;
   }
 
+  .desktopOnly {
+    display: none;
+  }
+
+  .ourValuesMobile span, .ourValuesMobile p {
+    color: #ffffff;
+    font-size: 2rem;
+  }
+
   .addPlusesLogo {
     width: 93%;
   }
@@ -104,11 +97,52 @@ form input, form textarea {
     font-size: 1.2rem;
   }
 
+  .secondDescription {
+    padding-bottom: 4rem;
+  }
+
   .weHave h1 {
     text-align: center;
   }
+
+  .ourValuesMobile {
+    background-color: #2e2e2e;
+  }
+
+  .companyProfile button {
+    border: 0;
+    background-color: #4285f4;
+    color: #ffffff;
+    padding: 0.5rem 2rem;
+  }
 }
 @media screen and (min-width: 768px) {
+  .mainDesc {
+    text-align: center;
+  }
+
+  .addPlusesLogo {
+    width: 50%;
+  }
+
+  .weHave h1 {
+    text-align: center;
+    border-width: revert;
+    padding: 0 3rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .haveAnIdeaContent {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .desktopOnly {
+    display: block;
+  }
+
   .addPlusesLogo {
     position: absolute;
     top: 10%;
@@ -117,6 +151,7 @@ form input, form textarea {
   }
 
   .mainDesc {
+    text-align: inherit;
     position: relative;
   }
 
@@ -137,13 +172,28 @@ form input, form textarea {
     width: 50%;
   }
 
-  .weHave h1 {
-    text-align: center;
-    border-width: revert;
-    padding: 0 3rem;
-    margin-bottom: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+  .mobileTablet {
+    display: none;
+  }
+
+  .companyProfile {
+    position: relative;
+  }
+
+  .companyProfile h1 {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+  }
+
+  .companyProfile button {
+    position: absolute;
+    left: 20%;
+    top: 45%;
+  }
+
+  .haveAnIdeaContent {
+    text-align: inherit;
   }
 
   .whoAre {

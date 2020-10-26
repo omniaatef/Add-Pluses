@@ -283,6 +283,10 @@ form.newsletterForm button:hover {
         display: none;
     }
 
+    .websiteWorkTablet{
+        display: none;
+    }
+
     .websiteWorkMobileContent{
         background-color: $primary_color;
     }
@@ -330,6 +334,10 @@ form.newsletterForm button:hover {
         color: $main_text_color2;
     }
 
+    .haveAnIdeaTablet{
+        display: none;
+    }
+
     .haveAnIdeaContent bold{
         font-weight: bold;
     }
@@ -347,6 +355,14 @@ form.newsletterForm button:hover {
         padding: 0.5rem 1.5rem;
     }
 
+    .ourClientsDesktop{
+        display: none;
+    }
+
+    .websiteClientsTablet{
+        display: none;
+    }
+
     .clientsImage{
         width: 40%;
     }
@@ -357,6 +373,10 @@ form.newsletterForm button:hover {
 
     .newsLetter{
         background-color: $primary_color;
+    }
+
+    .NewsLetterTablet{
+        display: none;
     }
 
     .newsLetter h4{
@@ -382,8 +402,12 @@ form.newsletterForm button:hover {
         border-left: none;
     }
 
-    .getInTouchMobile{
+    .getInTouchMobileImg{
         font-size: 1.7rem;
+    }
+
+    .getInTouchMobile{
+        display: block;
     }
 
     .inTouchFirstRow{
@@ -509,6 +533,10 @@ form.newsletterForm button:hover {
     .ourWorkText{
         padding: 2rem;
     }
+    
+    .websiteWorkTablet{
+        display: block;
+    }
 
     .websiteWorkTablet span{
         border-bottom: 2px solid $main_button_color;
@@ -525,6 +553,7 @@ form.newsletterForm button:hover {
     }
 
     .NewsLetterTablet{
+        display: block;
         padding: 5rem;
     }
 
@@ -542,6 +571,14 @@ form.newsletterForm button:hover {
     }
     .clientsDesktop{
         display: flex;
+    }
+
+    .websiteClientsTablet{
+        display: block;
+    }
+
+    .getInTouchMobile, .getInTouchImage{
+        display: none;
     }
 
     .inTouchFirstRow{
@@ -628,6 +665,30 @@ form.newsletterForm button:hover {
 
     .ourWorkText{
         padding: 5rem;
+    }
+
+    .haveAnIdeaTablet{
+        display: none;
+    }
+
+    .NewsLetterTablet{
+        display: none;
+    }
+
+    .ourClientsDesktop{
+        display: block;
+    }
+
+    .websiteClientsTablet{
+        display: none;
+    }
+
+    .getInTouchMobile{
+        display: none;
+    }
+
+    .getInTouchImage{
+        display: block;
     }
 }
 
