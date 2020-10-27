@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 102 100" style="enable-background:new 0 0 102 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#4285F4;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#4285F4;}
+	.st2{fill:none;stroke:#4285F4;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M82.4,61.1c4.7-6.3,5.9-14.8,2.3-22.4c-4-8.3-12.5-12.9-21.2-12.3"/>
+	<path class="st0" d="M25.6,46.9c-4.8,6.3-5.9,14.9-2.3,22.5c4,8.3,12.5,12.9,21.2,12.3"/>
+	<polyline class="st0" points="93.2,56.6 82.5,61.7 77.4,51 	"/>
+	<polyline class="st0" points="14.8,51.5 25.5,46.4 30.6,57.1 	"/>
+	<rect x="20" y="17.1" class="st0" width="28.4" height="21.3"/>
+	<path class="st0" d="M29.5,16.7c0-2.7,2.2-4.8,4.8-4.8s4.8,2.2,4.8,4.8"/>
+	<line class="st0" x1="20" y1="30.1" x2="48.5" y2="30.1"/>
+	<circle class="st1" cx="34.3" cy="26.5" r="1.2"/>
+	<g>
+		<path class="st1" d="M70.8,80.7c-0.1,0-0.2,0-0.2,0.1l-5.5,3.8c-0.1,0.1-0.2,0.2-0.2,0.3v0.7v0.8c0,0.1,0.1,0.3,0.2,0.3l5.5,3.8
+			c0.1,0.1,0.2,0.1,0.2,0.1c0.2,0,0.4-0.2,0.4-0.4v-1.9c0-0.1-0.1-0.3-0.2-0.3l-3.3-2.3l0.1-0.1l3.2-2.2c0.1-0.1,0.2-0.2,0.2-0.3
+			v-1.9C71.2,80.9,71,80.7,70.8,80.7L70.8,80.7z"/>
+	</g>
+	<g>
+		<path class="st1" d="M81.8,80.7c-0.2,0-0.4,0.2-0.4,0.4V83c0,0.1,0.1,0.3,0.2,0.3l3.2,2.2l0.1,0.1l-3.3,2.3
+			c-0.1,0.1-0.2,0.2-0.2,0.3v1.9c0,0.2,0.2,0.4,0.4,0.4c0.1,0,0.2,0,0.2-0.1l5.5-3.8c0.1-0.1,0.2-0.2,0.2-0.3v-0.8v-0.7
+			c0-0.1-0.1-0.3-0.2-0.3L82,80.7C81.9,80.7,81.9,80.7,81.8,80.7L81.8,80.7z"/>
+	</g>
+	<g>
+		<path class="st1" d="M79,78.4L79,78.4l-1.5,0.1c-0.2,0-0.3,0.1-0.4,0.3L73,91.6c-0.1,0.3,0.1,0.5,0.4,0.5l0,0l1.8-0.1
+			c0.2,0,0.3-0.1,0.4-0.3l3.8-12.8C79.5,78.6,79.3,78.4,79,78.4L79,78.4z"/>
+	</g>
+	<ellipse transform="matrix(0.9239 -0.3827 0.3827 0.9239 -21.3587 28.8401)" class="st2" cx="61.8" cy="68.1" rx="6.8" ry="6.8"/>
+	<line class="st2" x1="54.6" y1="75.4" x2="57" y2="73"/>
+	<line class="st2" x1="66.7" y1="63.3" x2="69.1" y2="60.9"/>
+	<line class="st2" x1="54.6" y1="60.9" x2="57" y2="63.3"/>
+	<line class="st2" x1="66.7" y1="73" x2="69.1" y2="75.4"/>
+	<line class="st2" x1="51.6" y1="68.1" x2="55" y2="68.1"/>
+	<line class="st2" x1="68.7" y1="68.1" x2="72.1" y2="68.1"/>
+	<line class="st2" x1="61.8" y1="57.9" x2="61.8" y2="61.3"/>
+	<line class="st2" x1="61.8" y1="75" x2="61.8" y2="78.4"/>
+</g>
+</svg>

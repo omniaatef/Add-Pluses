@@ -2,17 +2,25 @@ body {
   font-family: "Roboto";
 }
 
+button:focus {
+  outline: 0;
+}
+
 @media screen and (min-width: 320px) {
-  .desktop {
+  .desktop, .tablet {
     display: none;
   }
 
-  .mobile {
+  .mobile, .mobileTablet {
     display: block;
+  }
+
+  .desktopOnly {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  .desktop {
+  .desktop, .tablet {
     display: block;
   }
 
@@ -20,44 +28,136 @@ body {
     display: none;
   }
 }
-.ourServices, .developmentService {
-  background-color: #2e2e2e;
-  color: #ffffff;
-}
+@media screen and (min-width: 1200px) {
+  .desktopOnly {
+    display: block;
+  }
 
-.ourServices span {
-  color: #ffffff;
-  font-size: 2.5rem;
-  border-bottom: 3px solid #4285f4;
-  border-width: thick;
-  padding-bottom: 0.5rem;
+  .tablet, .mobileTablet {
+    display: none;
+  }
 }
+@media screen and (min-width: 320px) {
+  .ourServices, .developmentService {
+    background-color: #2e2e2e;
+    color: #ffffff;
+  }
 
-.ourServices .row {
-  padding-top: 3rem;
+  .ourServices {
+    text-align: center;
+  }
+
+  .ourServices span {
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-bottom: 3px solid #4285f4;
+    border-width: thick;
+    padding-bottom: 0.5rem;
+  }
+
+  .ourServices .row {
+    padding-top: 1rem;
+  }
+
+  .companyProfileMobile {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .companyProfileMobile button {
+    border: 0;
+    background-color: #4285f4;
+    color: #ffffff;
+    padding: 0.5rem 2rem;
+  }
+
+  .ourProducts {
+    text-align: center;
+  }
+
+  .ourProducts span, .technologies span, .developmentService span {
+    font-size: 1.4rem;
+    border-bottom: 3px solid #4285f4;
+    border-width: thick;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .technologies, .developmentService {
+    text-align: center;
+  }
+
+  .technologies span, .developmentService span {
+    line-height: 2;
+  }
+
+  .haveAnIdeaMobileSpecial {
+    background-color: #ffffff;
+    color: #000000;
+  }
 }
+@media screen and (min-width: 1200px) {
+  .ourServices {
+    text-align: inherit;
+  }
 
-.ourServices p {
-  padding-left: 1rem;
-  border-left: 3px solid #4285f4;
-  border-width: thick;
-  margin-top: 1rem;
+  .ourServices span {
+    font-size: 2.5rem;
+  }
+
+  .ourServices .row {
+    padding-top: 3rem;
+  }
+
+  .ourServices p {
+    padding-left: 1rem;
+    border-left: 3px solid #4285f4;
+    border-width: thick;
+    margin-top: 1rem;
+  }
+
+  .companyProfile h1 {
+    color: #ffffff;
+  }
+
+  .ourProducts {
+    text-align: inherit;
+  }
+
+  .ourProducts span, .technologies span, .developmentService span {
+    font-size: 2.5rem;
+  }
+
+  .technologies, .developmentService {
+    text-align: inherit;
+  }
+
+  .technologies span, .developmentService span {
+    line-height: 1.5;
+  }
 }
-
-.companyProfile h1 {
-  color: #ffffff;
-}
-
-.ourProducts span, .technologies span, .developmentService span {
-  font-size: 2.5rem;
-  border-bottom: 3px solid #4285f4;
-  border-width: thick;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
-
 .developmentService .row {
   padding-top: 3rem;
+}
+
+.technologiesContainer {
+  padding: 4rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=whatWeDo.css.map */

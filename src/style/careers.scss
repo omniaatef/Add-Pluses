@@ -1,24 +1,55 @@
 @import "mainStyle";
 
-.mainDescription{
-    width: 50%;
+@media screen and (min-width: 320px) {
+    .mainDescription{
+        width: 90%;
+        padding-left: 1rem;
+        padding-bottom: 5rem;
+    }
+
+    .applyBtn{
+        text-align: center;
+    }
+
+    .careers .collapsible{
+        border-bottom: 1px solid $main_button_color;
+        border-top: 1px solid $main_button_color;
+        margin-bottom: 2rem;
+    }
+    
+    .collapsible {
+        background-color: transparent;
+        color: $main_text_color1;
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 1.4rem;
+    }
 }
 
-.careers .collapsible{
-    border-bottom: 1px solid $main_button_color;
-    border-top: 1px solid $main_button_color;
-    margin-bottom: 3rem;
+@media screen and (min-width: 768px) {
 }
 
-.collapsible {
-    background-color: transparent;
-    color: $main_text_color1;
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 2rem;
+@media screen and (min-width: 1200px) {
+    .mainDescription{
+        width: 50%;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    
+    .applyBtn{
+        text-align: inherit;
+    }
+    
+    .careers .collapsible{
+        margin-bottom: 3rem;
+    }
+
+    .collapsible {
+        font-size: 2rem;
+    }
 }
 
 button:focus{

@@ -2,17 +2,25 @@ body {
   font-family: "Roboto";
 }
 
+button:focus {
+  outline: 0;
+}
+
 @media screen and (min-width: 320px) {
-  .desktop {
+  .desktop, .tablet {
     display: none;
   }
 
-  .mobile {
+  .mobile, .mobileTablet {
     display: block;
+  }
+
+  .desktopOnly {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  .desktop {
+  .desktop, .tablet {
     display: block;
   }
 
@@ -20,21 +28,32 @@ body {
     display: none;
   }
 }
-.services {
-  background-color: #2e2e2e;
-  color: #ffffff;
-}
+@media screen and (min-width: 1200px) {
+  .desktopOnly {
+    display: block;
+  }
 
-.services h3 {
-  margin-bottom: 3rem;
+  .tablet, .mobileTablet {
+    display: none;
+  }
 }
+@media screen and (min-width: 320px) {
+  .services {
+    background-color: #2e2e2e;
+    color: #ffffff;
+  }
 
-.services span {
-  border: 1px solid #8dbaff;
-  padding: 0.2rem 1rem;
-  margin-left: 0.5rem;
+  .services h3 {
+    margin-bottom: 3rem;
+  }
+
+  .services span {
+    border: 1px solid #8dbaff;
+    padding: 0.2rem 1rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+  }
 }
-
 .technologiesSection p {
   color: #4285f4;
   font-size: 2rem;

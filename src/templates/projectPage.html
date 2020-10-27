@@ -15,13 +15,14 @@
         <link rel="stylesheet" href="../../build/style/whyUs.css">
         <link rel="stylesheet" href="../../build/style/projectPage.css">        
         <link rel="stylesheet" href="../../build/style/home.css">
+        <link rel="stylesheet" href="../../build/style/mainStyle.css">
         <link rel="stylesheet" href="../../build/style/header.css">
         <link rel="stylesheet" href="../../build/style/footer.css">
         <!-- <link rel="import" href="../templates/menu/header.html"> -->
     </head>
     <body>
         <!-- Header Component -->
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-md navbar-dark">
             <a href="#" class="navbar-brand"><img src="../../assets/websiteLogo.png" alt="websiteLogo"></a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -52,11 +53,28 @@
                     <h3>Services Applied</h3>
                     <div class="row m-0">
                         <div class="col-md-12 pl-0">
-                            <span>Design</span>
-                            <span>Development</span>
-                            <span>Content Management System (CMS)</span>
-                            <span>Content editing</span>
-                            <span>Booking engine integration</span>
+                            <div class="desktopOnly">
+                                <span>Design</span>
+                                <span>Development</span>
+                                <span>Content Management System (CMS)</span>
+                                <span>Content editing</span>
+                                <span>Booking engine integration</span>
+                            </div>
+                            <div class="mobileTablet">
+                                <div class="mb-3">
+                                    <span>Design</span>
+                                    <span>Development</span>
+                                </div>
+                                <div class="mb-3">
+                                    <span>Booking engine integration</span>
+                                </div>
+                                <div class="mb-3">
+                                    <span>Content Management System (CMS)</span>
+                                </div>
+                                <div class="mb-3">
+                                    <span>Content editing</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -75,13 +93,13 @@
                         <!-- The slideshow -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src="../../assets/xperienceTechnologies.png" alt="Los Angeles" height="500">
+                            <img src="../../assets/xperienceTechnologies.png" alt="xperienceTechnologies" height="500">
                             </div>
                             <div class="carousel-item">
-                            <img src="../../assets/alfaProject.png" alt="Chicago" height="500">
+                            <img src="../../assets/xperienceTechnologies.png" alt="xperienceTechnologies" height="500">
                             </div>
                             <div class="carousel-item">
-                            <img src="../../assets/twgProject.png" alt="New York" height="500">
+                            <img src="../../assets/xperienceTechnologies.png" alt="xperienceTechnologies" height="500">
                             </div>
                         </div>
                         
@@ -141,11 +159,11 @@
         <!-- Footer Component -->
         <div class="footer">
             <div class="row m-0">
-                <div class="col-md-1">&nbsp;</div>
+                <div class="col-md-1 spacing">&nbsp;</div>
                 <div class="col-md-2">
                     <img class="footerLogo" src="../../assets/websiteLogo.png" alt="websiteLogo">
                 </div>
-                <div class="borders col-md-1">&nbsp;</div>
+                <div class="borders col-md-1 spacing">&nbsp;</div>
                 <div class="col-md-2 pl-5">
                     <ul class="websiteContentFooter">
                         <li>WHO WE ARE</li>
@@ -156,7 +174,7 @@
                         <li>GET IN TOUCH</li>
                     </ul>
                 </div>
-                <div class="borders col-md-1">&nbsp;</div>
+                <div class="borders col-md-1 spacing">&nbsp;</div>
                 <div class="col-md-4 pl-5">
                     <ul class="websiteInfoFooter">
                         <li>
