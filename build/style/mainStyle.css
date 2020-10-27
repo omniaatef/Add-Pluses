@@ -7,20 +7,33 @@ button:focus {
 }
 
 @media screen and (min-width: 320px) {
-  .desktop {
+  .desktop, .tablet {
     display: none;
   }
 
-  .mobile {
+  .mobile, .mobileTablet {
     display: block;
+  }
+
+  .desktopOnly {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  .desktop {
+  .desktop, .tablet {
     display: block;
   }
 
   .mobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .desktopOnly {
+    display: block;
+  }
+
+  .tablet, .mobileTablet {
     display: none;
   }
 }
