@@ -3,6 +3,10 @@ body {
   font-family: "Roboto";
 }
 
+button:focus {
+  outline: 0;
+}
+
 @media screen and (min-width: 320px) {
   .desktop {
     display: none;
@@ -21,71 +25,153 @@ body {
     display: none;
   }
 }
-.addplusesNumbers {
-  background-color: #2e2e2e;
-  color: #ffffff;
-}
+@media screen and (min-width: 320px) {
+  .addplusesNumbers {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    text-align: center;
+  }
 
-.addplusesNumbers span {
-  color: #ffffff;
-  font-size: 2.5rem;
-  border-bottom: 3px solid #4285f4;
-  border-width: thick;
-  padding-bottom: 0.5rem;
-}
+  .addplusesNumbers .mainHeaderNumbers {
+    color: #ffffff;
+    font-size: 1.3rem;
+    border-bottom: 3px solid #4285f4;
+    border-width: thick;
+    padding-bottom: 0.5rem;
+  }
 
-.numbersContent {
-  text-align: center;
-}
+  .addplusesNumbers span {
+    font-size: 2rem;
+    font-weight: bold;
+  }
 
-.numbersContent h4 {
-  padding-top: 2rem;
-}
+  .numbersContent {
+    text-align: center;
+  }
 
-.competencies span {
-  font-size: 2.5rem;
-  border-bottom: 3px solid #4285f4;
-  border-width: thick;
-}
+  .numbersContent h4 {
+    padding-top: 0.5rem;
+    font-size: 1rem;
+  }
 
-.competencies .row {
-  padding-top: 3rem;
-}
+  .removeSpacing {
+    padding-top: 0.5rem;
+    margin-top: 0;
+  }
 
-.competencies h3 {
-  color: #4285f4;
-}
+  .competencies {
+    text-align: center;
+  }
 
-.listDetails {
-  padding-top: 1rem;
-}
+  .competencies span {
+    font-size: 1.5rem;
+    border-bottom: 3px solid #4285f4;
+    border-width: thick;
+  }
 
-.listDetails {
-  padding-left: 1rem;
-  list-style: none;
-}
+  .competencies h3 {
+    color: #4285f4;
+  }
 
-.listDetails li::before {
-  content: "•";
-  font-size: 1.3rem;
-  color: #4285f4;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
+  .listDetails {
+    padding-top: 1rem;
+    text-align: left;
+  }
 
-.kickoff {
-  background-color: #2e2e2e;
-}
+  .listDetails {
+    padding-left: 1rem;
+    list-style: none;
+  }
 
-.kickoff h2 {
-  font-weight: 300;
-}
+  .listDetails li::before {
+    content: "•";
+    font-size: 1.3rem;
+    color: #4285f4;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
 
-.kickoff h2, .kickoff p {
-  color: #ffffff;
-  padding-top: 3rem;
+  .kickoff {
+    background-color: #2e2e2e;
+    text-align: center;
+  }
+
+  .kickoff img {
+    width: fit-content;
+  }
+
+  .kickoff h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  .kickoff h2, .kickoff p {
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .addplusesNumbers {
+    text-align: inherit;
+  }
+
+  .addplusesNumbers .mainHeaderNumbers {
+    font-size: 2.5rem;
+  }
+
+  .addplusesNumbers span {
+    color: #ffffff;
+    font-size: 2.5rem;
+    border-bottom: 3px solid #4285f4;
+    border-width: thick;
+    padding-bottom: 0.5rem;
+  }
+
+  .numbersContent {
+    text-align: center;
+  }
+
+  .numbersContent h4 {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .removeSpacing {
+    padding-top: 3rem;
+    margin-top: 1rem;
+  }
+
+  .competencies {
+    text-align: inherit;
+  }
+
+  .competencies span {
+    font-size: 2.5rem;
+  }
+
+  .competencies .row {
+    padding-top: 3rem;
+  }
+
+  .kickoff {
+    text-align: inherit;
+  }
+
+  .kickoff img {
+    width: 100%;
+  }
+
+  .kickoff h2 {
+    font-size: 2rem;
+  }
+
+  .kickoff h2, .kickoff p {
+    padding-top: 3rem;
+  }
+}
+.marketsImg {
+  margin-top: 3rem;
 }
 
 /*# sourceMappingURL=whyUs.css.map */

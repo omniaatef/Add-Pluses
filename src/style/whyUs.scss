@@ -1,71 +1,159 @@
 @import "mainStyle";
 
-.addplusesNumbers{
-    background-color: $primary_color;
-    color: $main_text_color2;
+@media screen and (min-width: 320px) {
+    .addplusesNumbers{
+        background-color: $primary_color;
+        color: $main_text_color2;
+        text-align: center;
+    }
+    
+    .addplusesNumbers .mainHeaderNumbers{
+        color: $main_text_color2;
+        font-size: 1.3rem;
+        border-bottom: 3px solid $main_button_color;
+        border-width: thick;
+        padding-bottom: 0.5rem;
+    }
 
+    .addplusesNumbers span{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .numbersContent{
+        text-align: center;
+    }
+    
+    .numbersContent h4{
+        padding-top: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .removeSpacing{
+        padding-top: 0.5rem;
+        margin-top: 0;
+    }
+
+    .competencies{
+        text-align: center;
+    }
+
+    .competencies span{
+        font-size: 1.5rem;
+        border-bottom: 3px solid $main_button_color;
+        border-width: thick;
+    }
+
+    .competencies h3{
+        color: $main_button_color;
+    }
+
+    .listDetails{
+        padding-top: 1rem;
+        text-align: left;
+    }
+    
+    .listDetails{
+        padding-left: 1rem;
+        list-style: none;
+    }
+    
+    .listDetails li::before {
+        content: "\2022";
+        font-size: 1.3rem;
+        color: $main_button_color;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    .kickoff{
+        background-color: $primary_color;
+        text-align: center;
+    }
+
+    .kickoff img{
+        width: fit-content;
+    }
+    
+    .kickoff h2{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    
+    .kickoff h2, .kickoff p{
+        color: $main_text_color2;
+    }
+
+    .marketsImg{
+        margin-top: 3rem;
+    }
 }
 
-.addplusesNumbers span{
-    color: $main_text_color2;
-    font-size: 2.5rem;
-    border-bottom: 3px solid $main_button_color;
-    border-width: thick;
-    padding-bottom: 0.5rem;
-    // width: fit-content;
+@media screen and (min-width: 768px) {
+    .addplusesNumbers span{
+        
+    }
 }
 
-.numbersContent{
-    text-align: center;
-}
+@media screen and (min-width: 1200px) {
+    .addplusesNumbers{
+        text-align: inherit;
+    }
 
-.numbersContent h4{
-    padding-top: 2rem;
-}
+    .addplusesNumbers .mainHeaderNumbers{
+        font-size: 2.5rem;
+    }
+    
+    .addplusesNumbers span{
+        color: $main_text_color2;
+        font-size: 2.5rem;
+        border-bottom: 3px solid $main_button_color;
+        border-width: thick;
+        padding-bottom: 0.5rem;        
+    }
 
-.competencies span{
-    font-size: 2.5rem;
-    border-bottom: 3px solid $main_button_color;
-    border-width: thick;
-}
+    .numbersContent{
+        text-align: center;
+    }
+    
+    .numbersContent h4{
+        padding-top: 2rem;
+        font-size: 1.5rem;
+    }
 
-.competencies .row{
-    padding-top: 3rem;
-}
+    .removeSpacing{
+        padding-top: 3rem;
+        margin-top: 1rem;
+    }
 
-.competencies h3{
-    color: $main_button_color;
-}
+    .competencies{
+        text-align: inherit;
+    }
 
-.listDetails{
-    padding-top: 1rem;
-}
+    .competencies span{
+        font-size: 2.5rem;
+    }
 
-.listDetails{
-    padding-left: 1rem;
-    list-style: none;
-}
+    .competencies .row{
+        padding-top: 3rem;
+    }
 
-.listDetails li::before {
-    content: "\2022";
-    font-size: 1.3rem;
-    color: $main_button_color;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-}
+    .kickoff{
+        text-align: inherit;
+    }
 
-.kickoff{
-    background-color: $primary_color;
-}
+    .kickoff img{
+        width: 100%;
+    }
 
-.kickoff h2{
-    font-weight: 300;
-}
+    .kickoff h2{
+        font-size: 2rem;
+    }
 
-.kickoff h2, .kickoff p{
-    color: $main_text_color2;
-    padding-top: 3rem;
+    .kickoff h2, .kickoff p{
+        padding-top: 3rem;
+    }
 }
   
