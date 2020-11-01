@@ -92,54 +92,58 @@ startups embrace new technologies on the web, social media and mobile phones.</p
             <!-- End Of Add Pluses An Idea Section -->
 
             <!-- start project form -->
-            <div class="container">
-                <form class="" action="" style="display: none;">
-                    <div class="row mt-4">
-                        <div class="col-md-1">&nbsp;</div>
-                        <div class="col-md-5 mt-2">
-                            <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Name" name="name">
+            <div class="startProjectForm" style="display: none;">
+                <div class="container py-5">
+                    <form class="" action="">
+                        <div class="row mt-4">
+                            <div class="col-md-1">&nbsp;</div>
+                            <div class="col-md-5 mt-2">
+                                <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Name" name="name">
+                            </div>
+                            <div class="col-md-5 mt-2">
+                                <input class="mt-3 pl-3 py-2 rounded-0" type="number" placeholder="Phone" name="phone">
+                            </div>
+                            <div class="col-md-1">&nbsp;</div>
                         </div>
-                        <div class="col-md-5 mt-2">
-                            <input class="mt-3 pl-3 py-2 rounded-0" type="number" placeholder="Phone" name="phone">
+                        <div class="row">
+                            <div class="col-md-1">&nbsp;</div>
+                            <div class="col-md-5 mt-2">
+                                <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Email" name="email">
+                            </div>
+                            <div class="col-md-5 mt-2">
+                                <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Subject" name="subject">
+                            </div>
+                            <div class="col-md-1">&nbsp;</div>
                         </div>
-                        <div class="col-md-1">&nbsp;</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1">&nbsp;</div>
-                        <div class="col-md-5 mt-2">
-                            <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Email" name="email">
+                        <div class="row">
+                            <div class="col-md-1">&nbsp;</div>
+                            <div class="col-md-5 mt-2">
+                                <input class="mt-3 pl-3 py-2 rounded-0" type="number" placeholder="Pre-estimated budget" name="estimated budget">
+                            </div>
+                            <div class="col-md-5 mt-2">
+                                <input class="mt-3 pl-3 py-2 rounded-0" placeholder="RFP/Requirements" name="RFP/Requirements">
+                            </div>
+                            <div class="col-md-1">&nbsp;</div>
                         </div>
-                        <div class="col-md-5 mt-2">
-                            <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Subject" name="subject">
+                        <div class="row">
+                            <div class="col-md-1">&nbsp;</div>
+                            <div class="col-md-10 mt-2">
+                                <textarea rows="4" class="mt-3 pl-3 py-2 rounded-0" type="text" name="yourMessage">Your Message</textarea>
+                            </div>
+                            <div class="col-md-1">&nbsp;</div>
                         </div>
-                        <div class="col-md-1">&nbsp;</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1">&nbsp;</div>
-                        <div class="col-md-5 mt-2">
-                            <input class="mt-3 pl-3 py-2 rounded-0" type="number" placeholder="Pre-estimated budget" name="estimated budget">
+                        <div class="row">
+                            <div class="col-md-9">&nbsp;</div>
+                            <div class="col-md-2 text-right">
+                                <button class="btn btn-primary mt-4 px-5 rounded-0">SEND</button>
+                            </div>
                         </div>
-                        <div class="col-md-5 mt-2">
-                            <input class="mt-3 pl-3 py-2 rounded-0" placeholder="RFP/Requirements" name="RFP/Requirements">
-                        </div>
-                        <div class="col-md-1">&nbsp;</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1">&nbsp;</div>
-                        <div class="col-md-10 mt-2">
-                            <textarea rows="4" class="mt-3 pl-3 py-2 rounded-0" type="text" name="yourMessage">Your Message</textarea>
-                        </div>
-                        <div class="col-md-1">&nbsp;</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-9">&nbsp;</div>
-                        <div class="col-md-2 text-right">
-                            <button class="btn btn-primary mt-4 px-5 rounded-0">SEND</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
+                <hr style="background-color: #4285f4;">
             </div>
             <!-- End of start project form -->
+
 
                 
             <!-- We have section -->
@@ -247,5 +251,12 @@ startups embrace new technologies on the web, social media and mobile phones.</p
         <!-- End Of Footer Component -->
                     
         <!-- End Of Home Content -->
+
+        <script>
+            $(".startProject-button").click(function(){
+                $(".startProjectForm").slideToggle(300);
+            })
+        </script>
+
     </body>
 </html>
