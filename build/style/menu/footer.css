@@ -63,11 +63,12 @@ button:hover {
     border-bottom: 1px solid #ffffff;
   }
 
-  .footer .websiteContentFooter > li {
+  .footer .websiteContentFooter > a {
     padding-bottom: 0.7rem;
+    color: #ffffff;
   }
 
-  .footer .websiteContentFooter > li:hover {
+  .footer .websiteContentFooter > a:hover {
     color: #3d6fc2;
   }
 }
@@ -86,7 +87,9 @@ button:hover {
   }
 
   .paddingFooter {
-    padding-left: 3rem;
+    margin-left: 3rem;
+    line-height: 2rem;
+    padding-left: 5rem;
   }
 
   .websiteContentFooter {

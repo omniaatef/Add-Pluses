@@ -22,11 +22,12 @@
         border-bottom: 1px solid $main_text_color2;
     }
 
-    .footer .websiteContentFooter>li{
+    .footer .websiteContentFooter>a{
         padding-bottom: 0.7rem;
+        color: $main_text_color2;
     }
     
-    .footer .websiteContentFooter>li:hover{
+    .footer .websiteContentFooter>a:hover{
         color: $hovering_color;
     }
     
@@ -49,7 +50,9 @@
     }
 
     .paddingFooter{
-        padding-left: 3rem;
+        margin-left: 3rem;
+        line-height: 2rem;
+        padding-left: 5rem;
     }
 
     .websiteContentFooter{
