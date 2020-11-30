@@ -310,7 +310,7 @@ form.newsletterForm button:hover {
 
   .servicesTopContentText, .servicesContentText {
     padding-top: 0;
-    text-align: center;
+    text-align: left;
   }
 
   .all_services {
