@@ -6,21 +6,38 @@ button:focus {
   outline: 0;
 }
 
+button:hover {
+  background-color: #3d6fc2;
+}
+
 @media screen and (min-width: 320px) {
-  .desktop {
+  .desktop, .tablet {
     display: none;
   }
 
-  .mobile {
+  .mobile, .mobileTablet {
     display: block;
+  }
+
+  .desktopOnly {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  .desktop {
+  .desktop, .tablet {
     display: block;
   }
 
   .mobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .desktopOnly {
+    display: block;
+  }
+
+  .tablet, .mobileTablet {
     display: none;
   }
 }
@@ -66,11 +83,16 @@ img {
   color: #4285f4;
 }
 
-.websiteWork span {
+.websiteWork a {
   border-bottom: 2px solid #4285f4;
   border-width: thick;
   color: #ffffff;
   font-size: 1.7rem;
+}
+
+.websiteWork a:hover {
+  text-decoration: none;
+  color: #4285f4;
 }
 
 .projectsImages {

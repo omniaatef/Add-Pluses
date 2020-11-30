@@ -49,11 +49,16 @@ img{
     color: $main_button_color;
 }
 
-.websiteWork span{
+.websiteWork a{
     border-bottom: 2px solid $main_button_color;
     border-width: thick;
     color: $main_text_color2;
     font-size: 1.7rem;
+}
+
+.websiteWork a:hover{
+    text-decoration: none;
+    color: $main_button_color;
 }
 
 .projectsImages{
