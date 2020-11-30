@@ -100,9 +100,9 @@
                             <form>
                                 <label for="position">I’m reaching out to you about:</label>
                                 <select name="getInTouchOptions" id="getInTouchOptions">
-                                    <option value="startProjec">Start a project</option>
-                                    <option value="applyingPosition">Applying for a position</option>
-                                    <option value="other">Other</option>
+                                    <option value="startProjec" id="startProject">Start a project</option>
+                                    <option value="applyingPosition" id="applyingPostion">Applying for a position</option>
+                                    <option value="other" id="other">Other</option>
                                 </select>
                                 <br><br>
                             </form>
@@ -125,9 +125,9 @@
                             <div class="col-md-1 spacing">&nbsp;</div>
                             <div class="col-md-5">
                                 <select class="mt-3 pl-3 py-2 rounded-0" name="positionsOptions" id="positionsOptions">
-                                    <option value="ui">UI Developer</option>
-                                    <option value="accountManager">Account Manager</option>
-                                    <option value="backend">Back-End Developer</option>
+                                    <option value="ui" id="uiDev">UI Developer</option>
+                                    <option value="accountManager" id="accountManag">Account Manager</option>
+                                    <option value="backend" id="backendDev">Back-End Developer</option>
                                 </select>
                             </div>
                         </div>
@@ -282,7 +282,7 @@
             </div>
         </div>
         <!-- End Of Footer Component -->
-
+        <script src="../../build/js/common.js"></script>      
         <script src="../../build/js/header.js"></script>      
         <script>
             // select position forms
