@@ -56,7 +56,7 @@ button:hover {
   .careers .collapsible {
     border-bottom: 1px solid #4285f4;
     border-top: 1px solid #4285f4;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .collapsible {
@@ -82,7 +82,7 @@ button:hover {
   }
 
   .careersDetails {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
   .collapsible {
