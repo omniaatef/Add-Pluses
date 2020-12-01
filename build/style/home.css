@@ -692,6 +692,8 @@ form.newsletterForm button:hover {
   .websiteWork {
     background-image: url("../../assets/ourWorkBg.png");
     height: 1224px;
+    background-color: #2e2e2e;
+    background-repeat: no-repeat;
   }
 
   .photoGrid {
