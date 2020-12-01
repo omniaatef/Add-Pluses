@@ -2,6 +2,21 @@ function goToContactUs() {
   window.location.href = "/contactUs.html";
 }
 
+function goToContactUsUI() {
+  window.location.href = "/contactus/position/uideveloper.html";
+}
+
+
+function goToContactUsQC() {
+  window.location.href = "/contactus/position/qualitycontrol.html";
+}
+
+
+function goToContactUsBE() {
+  window.location.href = "/contactus/position/backend.html";
+}
+
+
 // var applySelected = "";
 // $('.applyButton').on('click', function(event){  
 //   if(event.currentTarget.id == "applyUI"){
