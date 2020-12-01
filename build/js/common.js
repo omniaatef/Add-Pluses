@@ -2,29 +2,36 @@ function goToContactUs() {
   window.location.href = "/contactUs.html";
 }
 
-// $('.applyButton').on('click', function(event){
-//   console.log('event', event.currentTarget.id);
-  
+// var applySelected = "";
+// $('.applyButton').on('click', function(event){  
 //   if(event.currentTarget.id == "applyUI"){
-//     window.location.href = "/Active%20Work/Add%20Pluses%20(new%20website)/Add-Pluses/src/templates/contactUs.html";
-//     console.log('position', $(".positionForm"));
-//     selectPosition();
+//     applySelected = "UI";
 //   }
 //   else if(event.currentTarget.id == "applyAccountManager"){
-//     document.getElementById("accountManag").selected = "true";
+//     applySelected = "QC";
 //   }
 //   else{
-//     document.getElementById("backendDev").selected = "true";
+//     applySelected = "BE";
 //   }
+//   selectPosition(applySelected);
 // });
 
-// function selectPosition(){
-//   document.addEventListener("DOMContentLoaded", function() { 
-//     console.log('hello');
-//     document.getElementById("applyingPostion").selected = "true";
-//     $(".positionForm").css('display', 'block');
-//     $(".projectForm").css('display', 'none');
-//     $(".otherForm").css('display', 'none');
-//     document.getElementById("uiDev").selected = "true";
-// });
+
+// function selectPosition(pos){
+//     window.location.href = "/contactUs.html";
+//     if(pos == "UI"){
+//       document.getElementById("applyingPostion").selected = "true";
+//       $(".positionForm").css('display', 'block');
+//       $(".projectForm").css('display', 'none');
+//       $(".otherForm").css('display', 'none');
+//       document.getElementById("uiDev").selected = "true";
+//     }
+//     else if(pos == "QC"){
+//       console.log('select', pos);
+
+//       document.getElementById("accountManag").selected = "true";
+//     }
+//     else{
+//       document.getElementById("backendDev").selected = "true";
+//     }
 // }
