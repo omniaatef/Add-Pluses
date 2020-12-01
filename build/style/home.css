@@ -462,7 +462,7 @@ form.newsletterForm button:hover {
   }
 
   .mainContent {
-    background-image: url("../../assets/mainImage.png");
+    background-image: url("../../assets/header4.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 366px;
@@ -629,11 +629,11 @@ form.newsletterForm button:hover {
   }
 
   .mainContent {
-    height: 655px;
+    height: 530px;
   }
 
   .mainContentText {
-    padding: 9rem 4rem;
+    padding: 7rem 4rem;
   }
 
   .top-left {
