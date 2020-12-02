@@ -155,7 +155,7 @@ form input, form textarea {
     text-align: center;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1100px) {
   .desktopOnly {
     display: block;
   }
@@ -165,6 +165,7 @@ form input, form textarea {
     top: 10%;
     left: 15%;
     width: fit-content;
+    width: -moz-fit-content;
   }
 
   .mainDesc {

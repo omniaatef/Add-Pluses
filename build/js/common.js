@@ -3,17 +3,17 @@ function goToContactUs() {
 }
 
 function goToContactUsUI() {
-  window.location.href = "/contactus/position/uideveloper.html";
+  window.location.href = "/uideveloperPosition.html";
 }
 
 
 function goToContactUsQC() {
-  window.location.href = "/contactus/position/qualitycontrol.html";
+  window.location.href = "/qualitycontrolPosition.html";
 }
 
 
 function goToContactUsBE() {
-  window.location.href = "/contactus/position/backend.html";
+  window.location.href = "/backendPosition.html";
 }
 
 
