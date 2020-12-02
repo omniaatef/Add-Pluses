@@ -45,6 +45,149 @@
 
         <!-- contactUs Content -->
         <div class="contactUsContent">
+
+            <!-- Get in touch section -->
+            <div class="getInTouch">
+                    <div class="container py-5">
+                        <span class="getInTouchHeader">GET IN TOUCH WITH US</span>
+                        <div class="row m-0">
+                            <div class="col-md-10 getInTouchSelection">
+                                <form>
+                                    <label for="position">I’m reaching out to you about:</label>
+                                    <select name="getInTouchOptions" id="getInTouchOptions">
+                                        <option value="applyingPosition" id="applyingPostion">Applying for a position</option>
+                                        <option value="startProjec" id="startProject">Start a project</option>
+                                        <option value="other" id="other">Other</option>
+                                    </select>
+                                    <br><br>
+                                </form>
+                            </div>
+                        </div>
+                        <form class="positionForm">
+                            <div class="row m-0">
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Name" name="name">
+                                </div>
+                                <div class="col-md-1 spacing">&nbsp;</div>
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="number" placeholder="Phone" name="phone">
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="email" placeholder="Email" name="email">
+                                </div>
+                                <div class="col-md-1 spacing">&nbsp;</div>
+                                <div class="col-md-5">
+                                    <select class="mt-3 pl-3 py-2 rounded-0" name="positionsOptions" id="positionsOptions">
+                                        <option value="backend" id="backendDev">Back-End Developer</option>
+                                        <option value="accountManager" id="accountManag">Quality Control</option>
+                                        <option value="ui" id="uiDev">UI Developer</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row m-0" style="width: 97%">
+                                <div class="col-md-11 mt-3 pl-3 py-2 uploadInput">
+                                    <a href="">+ Upload your resume</a>
+                                    <!-- <input class="mt-3 pl-3 py-2 rounded-0" type="" placeholder="" name="upload"> -->
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-md-11">
+                                    <textarea class="mt-3 pl-3 py-2 rounded-0" rows="3" name="note">Add a note</textarea>
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-md-9 spacing">&nbsp;</div>
+                                <div class="col-md-2 text-right">
+                                    <button class="btn btn-primary mt-4 px-5 rounded-0">SEND</button>
+                                </div>
+                            </div>
+                        </form>
+    
+                        <form class="otherForm" style="display: none">
+                            <div class="row m-0">
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Name" name="name">
+                                </div>
+                                <div class="col-md-1 spacing">&nbsp;</div>
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="number" placeholder="Phone" name="phone">
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="email" placeholder="Email" name="email">
+                                </div>
+                                <div class="col-md-1 spacing">&nbsp;</div>
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Subject" name="subject">
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-md-11">
+                                    <textarea class="mt-3 pl-3 py-2 rounded-0" rows="3" name="note">Your Message</textarea>
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-md-9 spacing">&nbsp;</div>
+                                <div class="col-md-2 text-right">
+                                    <button class="btn btn-primary mt-4 px-5 rounded-0">SEND</button>
+                                </div>
+                            </div>
+                        </form>
+    
+                        <form class="projectForm" style="display: none">
+                            <div class="row m-0">
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Name" name="name">
+                                </div>
+                                <div class="col-md-1 spacing">&nbsp;</div>
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="number" placeholder="Phone" name="phone">
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="email" placeholder="Email" name="email">
+                                </div>
+                                <div class="col-md-1 spacing">&nbsp;</div>
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Subject" name="subject">
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-md-5">
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Pre-estimated budget" name="estimatedbudget">
+                                </div>
+                                <div class="col-md-1 spacing">&nbsp;</div>
+                                <div class="col-md-5">
+                                    <!-- <span>RFP/Requirements </span><a href="">+ Upload file (30 MB max)</a> -->
+    
+                                    <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="RFP/Requirements" name="requirements">
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-md-11">
+                                    <textarea class="mt-3 pl-3 py-2 rounded-0" rows="3" name="note">Your Message</textarea>
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-md-9 spacing">&nbsp;</div>
+                                <div class="col-md-2 text-right">
+                                    <button class="btn btn-primary mt-4 px-5 rounded-0">SEND</button>
+                                </div>
+                            </div>
+                        </form>
+    
+    
+                    </div>
+            </div>
+            <!-- End of Get in touch section -->
+
+            <!--The div element for the map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.8269822227903!2d30.9747667291573!3d29.99931336030771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585717a900f759%3A0xb3ac298f3bcfe0c0!2sADD%20Pluses!5e0!3m2!1sen!2seg!4v1604313600891!5m2!1sen!2seg" width="1348" height="400" frameborder="0" style="border:0; max-width: 100%; width: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                
             <!-- main content section-->
             <div class="mainDesc desktopOnly">
                 <img src="../../assets/contactUsBg.png" alt="contactUsBg" style="width: 100%;">
@@ -91,152 +234,10 @@
                 </div>
             </div>
             <!-- End of main content section-->
-            <!-- Get in touch section -->
-            <div class="getInTouch">
-                <div class="container py-5">
-                    <span class="getInTouchHeader">GET IN TOUCH WITH US</span>
-                    <div class="row m-0">
-                        <div class="col-md-10 getInTouchSelection">
-                            <form>
-                                <label for="position">I’m reaching out to you about:</label>
-                                <select name="getInTouchOptions" id="getInTouchOptions">
-                                    <option value="applyingPosition" id="applyingPostion">Applying for a position</option>
-                                    <option value="startProjec" id="startProject">Start a project</option>
-                                    <option value="other" id="other">Other</option>
-                                </select>
-                                <br><br>
-                            </form>
-                        </div>
-                    </div>
-                    <form class="positionForm">
-                        <div class="row m-0">
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Name" name="name">
-                            </div>
-                            <div class="col-md-1 spacing">&nbsp;</div>
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="number" placeholder="Phone" name="phone">
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="email" placeholder="Email" name="email">
-                            </div>
-                            <div class="col-md-1 spacing">&nbsp;</div>
-                            <div class="col-md-5">
-                                <select class="mt-3 pl-3 py-2 rounded-0" name="positionsOptions" id="positionsOptions">
-                                    <option value="backend" id="backendDev">Back-End Developer</option>
-                                    <option value="accountManager" id="accountManag">Quality Control</option>
-                                    <option value="ui" id="uiDev">UI Developer</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row m-0" style="width: 97%">
-                            <div class="col-md-11 mt-3 pl-3 py-2 uploadInput">
-                                <a href="">+ Upload your resume</a>
-                                <!-- <input class="mt-3 pl-3 py-2 rounded-0" type="" placeholder="" name="upload"> -->
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <div class="col-md-11">
-                                <textarea class="mt-3 pl-3 py-2 rounded-0" rows="3" name="note">Add a note</textarea>
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <div class="col-md-9 spacing">&nbsp;</div>
-                            <div class="col-md-2 text-right">
-                                <button class="btn btn-primary mt-4 px-5 rounded-0">SEND</button>
-                            </div>
-                        </div>
-                    </form>
-
-                    <form class="otherForm" style="display: none">
-                        <div class="row m-0">
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Name" name="name">
-                            </div>
-                            <div class="col-md-1 spacing">&nbsp;</div>
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="number" placeholder="Phone" name="phone">
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="email" placeholder="Email" name="email">
-                            </div>
-                            <div class="col-md-1 spacing">&nbsp;</div>
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Subject" name="subject">
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <div class="col-md-11">
-                                <textarea class="mt-3 pl-3 py-2 rounded-0" rows="3" name="note">Your Message</textarea>
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <div class="col-md-9 spacing">&nbsp;</div>
-                            <div class="col-md-2 text-right">
-                                <button class="btn btn-primary mt-4 px-5 rounded-0">SEND</button>
-                            </div>
-                        </div>
-                    </form>
-
-                    <form class="projectForm" style="display: none">
-                        <div class="row m-0">
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Name" name="name">
-                            </div>
-                            <div class="col-md-1 spacing">&nbsp;</div>
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="number" placeholder="Phone" name="phone">
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="email" placeholder="Email" name="email">
-                            </div>
-                            <div class="col-md-1 spacing">&nbsp;</div>
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Subject" name="subject">
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <div class="col-md-5">
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="Pre-estimated budget" name="estimatedbudget">
-                            </div>
-                            <div class="col-md-1 spacing">&nbsp;</div>
-                            <div class="col-md-5">
-                                <!-- <span>RFP/Requirements </span><a href="">+ Upload file (30 MB max)</a> -->
-
-                                <input class="mt-3 pl-3 py-2 rounded-0" type="text" placeholder="RFP/Requirements" name="requirements">
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <div class="col-md-11">
-                                <textarea class="mt-3 pl-3 py-2 rounded-0" rows="3" name="note">Your Message</textarea>
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <div class="col-md-9 spacing">&nbsp;</div>
-                            <div class="col-md-2 text-right">
-                                <button class="btn btn-primary mt-4 px-5 rounded-0">SEND</button>
-                            </div>
-                        </div>
-                    </form>
-
-
-                </div>
             </div>
-            <!-- End of Get in touch section -->
-            </div>
-
-            <!--The div element for the map -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.8269822227903!2d30.9747667291573!3d29.99931336030771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585717a900f759%3A0xb3ac298f3bcfe0c0!2sADD%20Pluses!5e0!3m2!1sen!2seg!4v1604313600891!5m2!1sen!2seg" width="1348" height="400" frameborder="0" style="border:0; max-width: 100%; width: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
 
         <!-- End of contactUs Content -->
-
+        <hr class="my-0">
 
         <!-- Footer Component -->
         <div class="footer">
@@ -278,7 +279,7 @@
                 </div>
             </div>
             <div class="smallFooter">
-                <p class="mb-0">© 2020 Add pluses</p>
+                <p class="mb-0">© Add pluses</p>
             </div>
         </div>
         <!-- End Of Footer Component -->
