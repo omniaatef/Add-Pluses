@@ -46,6 +46,53 @@
         <!-- contactUs Content -->
         <div class="contactUsContent">
 
+            <!-- main content section-->
+            <div class="mainDesc desktopOnly">
+                    <img src="../../assets/contactUsBg.png" alt="contactUsBg" style="width: 100%;">
+                    <span class="contactHeader">CONTACT</span>
+                    <div class="mailContent">
+                        <img src="../../assets/contactUsMail.png" alt="contactUsMail">
+                        <span>info@addpluses.com</span>                       
+                    </div>
+    
+                    <div class="phoneContent">
+                        <img src="../../assets/phoneContactUs.png" alt="phoneContactUs">
+                        <span>+201144446678</span>                       
+                    </div>
+    
+                    <div class="addressContent">
+                        <img src="../../assets/contactUsDirection.png" alt="contactUsDirection">
+                        <span>271 Abd El-Moneim Riad Street, off 26th of July Corridor, 6th of October City, Giza</span>                       
+                    </div>
+    
+                    <div class="getDirectionsContent">
+                        <button class="getDirectionsBtn" onclick="window.open('https://www.google.com/maps/place/ADD+Pluses/@29.9993122,30.9753139,15z/data=!4m5!3m4!1s0x0:0xb3ac298f3bcfe0c0!8m2!3d29.9993122!4d30.9753139')">GET DIRECTION</button>
+                    </div>
+            </div>
+    
+            <div class="mainDesc mobileTablet">
+                <span class="contactHeader">CONTACT</span>
+                <div class="mailContent">
+                    <img src="../../assets/contactUsMail.png" alt="contactUsMail">
+                    <span>info@addpluses.com</span>                       
+                </div>
+
+                <div class="phoneContent">
+                    <img src="../../assets/phoneContactUs.png" alt="phoneContactUs">
+                    <span>+201144446678</span>                       
+                </div>
+
+                <div class="addressContent">
+                    <img src="../../assets/contactUsDirection.png" alt="contactUsDirection">
+                    <span>271 Abd El-Moneim Riad Street, off 26th of July Corridor, 6th of October City, Giza</span>                       
+                </div>
+
+                <div class="getDirectionsContent">
+                    <button class="getDirectionsBtn">GET DIRECTION</button>
+                </div>
+            </div>
+            <!-- End of main content section-->
+    
             <!-- Get in touch section -->
             <div class="getInTouch">
                     <div class="container py-5">
@@ -188,56 +235,8 @@
             <!--The div element for the map -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.8269822227903!2d30.9747667291573!3d29.99931336030771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585717a900f759%3A0xb3ac298f3bcfe0c0!2sADD%20Pluses!5e0!3m2!1sen!2seg!4v1604313600891!5m2!1sen!2seg" width="1348" height="400" frameborder="0" style="border:0; max-width: 100%; width: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 
-            <!-- main content section-->
-            <div class="mainDesc desktopOnly">
-                <img src="../../assets/contactUsBg.png" alt="contactUsBg" style="width: 100%;">
-                <span class="contactHeader">CONTACT</span>
-                <div class="mailContent">
-                    <img src="../../assets/contactUsMail.png" alt="contactUsMail">
-                    <span>info@addpluses.com</span>                       
-                </div>
-
-                <div class="phoneContent">
-                    <img src="../../assets/phoneContactUs.png" alt="phoneContactUs">
-                    <span>+201144446678</span>                       
-                </div>
-
-                <div class="addressContent">
-                    <img src="../../assets/contactUsDirection.png" alt="contactUsDirection">
-                    <span>271 Abd El-Moneim Riad Street, off 26th of July Corridor, 6th of October City, Giza</span>                       
-                </div>
-
-                <div class="getDirectionsContent">
-                    <button class="getDirectionsBtn" onclick="window.open('https://www.google.com/maps/place/ADD+Pluses/@29.9993122,30.9753139,15z/data=!4m5!3m4!1s0x0:0xb3ac298f3bcfe0c0!8m2!3d29.9993122!4d30.9753139')">GET DIRECTION</button>
-                </div>
-            </div>
-
-            <div class="mainDesc mobileTablet">
-                <span class="contactHeader">CONTACT</span>
-                <div class="mailContent">
-                    <img src="../../assets/contactUsMail.png" alt="contactUsMail">
-                    <span>info@addpluses.com</span>                       
-                </div>
-
-                <div class="phoneContent">
-                    <img src="../../assets/phoneContactUs.png" alt="phoneContactUs">
-                    <span>+201144446678</span>                       
-                </div>
-
-                <div class="addressContent">
-                    <img src="../../assets/contactUsDirection.png" alt="contactUsDirection">
-                    <span>271 Abd El-Moneim Riad Street, off 26th of July Corridor, 6th of October City, Giza</span>                       
-                </div>
-
-                <div class="getDirectionsContent">
-                    <button class="getDirectionsBtn">GET DIRECTION</button>
-                </div>
-            </div>
-            <!-- End of main content section-->
-            </div>
-
+        </div>
         <!-- End of contactUs Content -->
-        <hr class="my-0">
 
         <!-- Footer Component -->
         <div class="footer">
@@ -304,6 +303,13 @@
                     $(".projectForm").slideUp(300);
                 }
             });
+
+            $(document).ready(function () {
+            // Handler for .ready() called.
+            $('html, body').animate({
+                scrollTop: $('.getInTouch').offset().top
+            }, 'slow');
+        });
             
         </script>
             
