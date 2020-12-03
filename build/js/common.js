@@ -16,7 +16,14 @@ function goToContactUsBE() {
   window.location.href = "/backendPosition.html";
 }
 
+function getCurrentYear(){
+  var addPlusesYear = document.getElementById("add-pluses-year");
+  var date = new Date();
+  var year = date.getFullYear();
+  addPlusesYear.innerHTML = "© "+year+ " Add pluses";
+}
 
+getCurrentYear();
 // var applySelected = "";
 // $('.applyButton').on('click', function(event){  
 //   if(event.currentTarget.id == "applyUI"){
