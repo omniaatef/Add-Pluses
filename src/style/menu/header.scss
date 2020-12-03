@@ -3,6 +3,7 @@
 nav{
     font-family: $main_font;
     background-color: $primary_color;
+    z-index: 1000;
 }
 
 .nav-item{
@@ -19,6 +20,12 @@ nav{
 
 .intouchLink{
     border-bottom: 2px solid $main_button_color;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 @media screen and (min-width: 320px) {

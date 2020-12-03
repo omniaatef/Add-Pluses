@@ -1,7 +1,9 @@
 var getIntouchLink = document.getElementById("selectedLink");
-document.addEventListener("DOMContentLoaded", function(event) { 
-    getIntouchLink.className +=" intouchLink";
-});
+if(getIntouchLink){
+    document.addEventListener("DOMContentLoaded", function(event) { 
+        getIntouchLink.className +=" intouchLink";
+    });
+}
 
 var tablinks;
 $(".navbar-nav a").on('click',function(event){            
@@ -12,4 +14,19 @@ for (i = 0; i < tablinks.length; i++) {
 
 event.currentTarget.className += " intouchLink";
 });
+
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
 
