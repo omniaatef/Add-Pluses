@@ -101,14 +101,22 @@
         font-size: 2rem;
     }
 
+    .getInTouchHeader, .getInTouchSelection{
+        margin-left: 1rem;
+    }
+
     .getInTouchSelection select{
         margin-left: 1rem;
         width: inherit;
     }
 
     .getInTouchSelection{
-        padding: 3rem 0;
-    }  
+        padding: 3rem 0 0;
+    }
+    
+    .containerGetInTouch{
+        margin-left: 8.5rem
+    }
 }
 
 

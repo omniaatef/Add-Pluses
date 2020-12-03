@@ -47,6 +47,10 @@
 }
 
 @media screen and (min-width: 320px) {
+    .centeredText{
+        text-align: center;
+    }
+
 }
   
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -66,9 +70,6 @@
 }
 
 @media (min-width: 768px) {
-    .centeredText{
-        text-align: center;
-    }
 
     div.haveAnIdea.desktop{
         display: none;
