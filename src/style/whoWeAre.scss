@@ -63,10 +63,6 @@ form input, form textarea{
         color: $main_text_color2;
         font-size: 2rem;
     }
-
-    .addPlusesLogo{
-        width: 93%;
-    }
     
     .mainDesc p{
         color: $main_text_color2;
@@ -99,10 +95,6 @@ form input, form textarea{
         text-align: center;
     }
 
-    .addPlusesLogo{
-        width: 50%;
-    }
-
     .weHave h1{
         text-align: center;
         // border-bottom: 2px solid $main_button_color;
@@ -128,8 +120,6 @@ form input, form textarea{
         position: absolute;
         top: 10%;
         left: 15%;
-        width: fit-content;
-        width: -moz-fit-content;
     }  
 
     .mainDesc{
