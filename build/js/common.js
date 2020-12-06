@@ -32,8 +32,14 @@ $('.applyButton').on('click', function(event){
   else if(event.currentTarget.id == "applyAccountManager"){
     applySelected = "QC";
   }
-  else{
+  else if(event.currentTarget.id == "applyBackend"){
     applySelected = "BE";
+  }
+  else if(event.currentTarget.id == "applySystemAdmin"){
+    applySelected = "systemAdmin";
+  }
+  else if(event.currentTarget.id == "applyFullStack"){
+    applySelected = "fullStack"
   }
   selectPosition(applySelected);
 });

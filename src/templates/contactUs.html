@@ -130,6 +130,8 @@
                                         <option value="ui" id="uiDev">UI Developer</option>
                                         <option value="accountManager" id="accountManag">Quality Control</option>
                                         <option value="backend" id="backendDev">Back-End Developer</option>
+                                        <option value="linuxSystemAdmin" id="linuxSystemAdmin">Linux System Administrator</option>
+                                        <option value="fullStackSw" id="fullStackSw">Full Stack Software Developer</option>
                                     </select>
                                 </div>
                             </div>
@@ -308,7 +310,7 @@
             $(document).ready(function () {
             // Handler for .ready() called.
             $('html, body').animate({
-                scrollTop: $('.getInTouch').offset().top
+                scrollTop: $('.addressContent').offset().top
             }, 'slow');
 
             var queryString = window.location.search;
@@ -333,6 +335,21 @@
                 document.getElementById("applyingPostion").selected = "true";
                 document.getElementById("backendDev").selected = "true";
             }
+            else if(queryString == "?position=systemAdmin"){
+                $(".positionForm").css('display', 'block');
+                $(".projectForm").css('display', 'none');
+                $(".otherForm").css('display', 'none');
+                document.getElementById("applyingPostion").selected = "true";
+                document.getElementById("linuxSystemAdmin").selected = "true";
+            }
+            else if(queryString == "?position=fullStack"){
+                $(".positionForm").css('display', 'block');
+                $(".projectForm").css('display', 'none');
+                $(".otherForm").css('display', 'none');
+                document.getElementById("applyingPostion").selected = "true";
+                document.getElementById("fullStackSw").selected = "true";
+            }
+
         });
             
         </script>
