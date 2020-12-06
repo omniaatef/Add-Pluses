@@ -43,3 +43,10 @@ function selectPosition(pos){
     window.location.href = "/contactUs.html?position="+pos;
 }
 
+//slider in home page
+$('#myCarousel').carousel({
+  interval: 2000,
+  cycle: true
+});        
+
+
