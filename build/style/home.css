@@ -274,20 +274,6 @@ form.newsletterForm button:hover {
     margin-top: 0.5rem;
   }
 
-  @property --numdeliveryprojects {
-    syntax: "<integer>";
-    initial-value: 350;
-    inherits: false;
-  }
-  .deliveredProjects {
-    animation: counter 4s alternate ease-in-out;
-    counter-reset: numdeliveryprojects var(--numdeliveryprojects);
-  }
-
-  .deliveredProjects::after {
-    content: counter(numdeliveryprojects);
-  }
-
   @keyframes counter {
     from {
       --numdeliveryprojects: 0;
