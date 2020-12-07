@@ -39,7 +39,10 @@ $('.applyButton').on('click', function(event){
     applySelected = "systemAdmin";
   }
   else if(event.currentTarget.id == "applyFullStack"){
-    applySelected = "fullStack"
+    applySelected = "fullStack";
+  }
+  else if(event.currentTarget.id == "applyAnotherPosition"){
+    applySelected = "anotherPosition";
   }
   selectPosition(applySelected);
 });
