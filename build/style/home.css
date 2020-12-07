@@ -69,6 +69,8 @@ img {
 
 .websiteServicesImage {
   padding: 4rem;
+  position: sticky;
+  top: 2rem;
 }
 
 .all_servicesLink {
@@ -626,6 +628,18 @@ form.newsletterForm button:hover {
     font-size: 1.1rem;
   }
 
+  .navbar-nav a:hover {
+    border-bottom: 2px solid #4285f4;
+  }
+
+  .intouch {
+    background-color: #4285f4;
+  }
+
+  .intouch:hover {
+    background-color: #3d6fc2;
+  }
+
   .mainContent {
     height: 530px;
   }
@@ -701,6 +715,8 @@ form.newsletterForm button:hover {
   .websiteWorkImage {
     display: block;
     padding: 4rem;
+    position: sticky;
+    top: 2rem;
   }
 
   .websiteWork {
@@ -743,6 +759,8 @@ form.newsletterForm button:hover {
 
   .ourClientsDesktop {
     display: block;
+    position: sticky;
+    top: 2rem;
   }
 
   .websiteClientsTablet {

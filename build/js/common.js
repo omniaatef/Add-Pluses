@@ -25,27 +25,29 @@ function getCurrentYear(){
 getCurrentYear();
 
 var applySelected = "";
-$('.applyButton').on('click', function(event){  
-  if(event.currentTarget.id == "applyUI"){
-    applySelected = "UI";
-  }
-  else if(event.currentTarget.id == "applyAccountManager"){
-    applySelected = "QC";
-  }
-  else if(event.currentTarget.id == "applyBackend"){
-    applySelected = "BE";
-  }
-  else if(event.currentTarget.id == "applySystemAdmin"){
-    applySelected = "systemAdmin";
-  }
-  else if(event.currentTarget.id == "applyFullStack"){
-    applySelected = "fullStack";
-  }
-  else if(event.currentTarget.id == "applyAnotherPosition"){
-    applySelected = "anotherPosition";
-  }
-  selectPosition(applySelected);
-});
+if($('.applyButton')){
+  $('.applyButton').on('click', function(event){  
+    if(event.currentTarget.id == "applyUI"){
+      applySelected = "UI";
+    }
+    else if(event.currentTarget.id == "applyAccountManager"){
+      applySelected = "QC";
+    }
+    else if(event.currentTarget.id == "applyBackend"){
+      applySelected = "BE";
+    }
+    else if(event.currentTarget.id == "applySystemAdmin"){
+      applySelected = "systemAdmin";
+    }
+    else if(event.currentTarget.id == "applyFullStack"){
+      applySelected = "fullStack";
+    }
+    else if(event.currentTarget.id == "applyAnotherPosition"){
+      applySelected = "anotherPosition";
+    }
+    selectPosition(applySelected);
+  });
+}
 
 
 function selectPosition(pos){
@@ -54,7 +56,7 @@ function selectPosition(pos){
 
 //slider in home page
 $('#myCarousel').carousel({
-  interval: 2000,
+  interval: 3000,
   cycle: true
 });        
 
