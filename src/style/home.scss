@@ -51,14 +51,14 @@ img{
     color: $main_button_color;
 }
 
-.websiteWork a{
+.websiteWork a:not(.workImgs){
     border-bottom: 2px solid $main_button_color;
     border-width: thick;
     color: $main_text_color2;
     font-size: 1.7rem;
 }
 
-.websiteWork a:hover{
+.websiteWork a:not(.workImgs):hover{
     text-decoration: none;
     color: $main_button_color;
 }
@@ -760,12 +760,6 @@ form.newsletterForm button:hover {
 
     .workImgs:hover img{
         opacity: 0.3;
-    }
-
-    .column a{
-        box-shadow: 10px 10px 5px #000000;
-       -moz-box-shadow: 0px 10px 5px #000000;
-       -webkit-box-shadow: 0px 10px 5px #000000; 
     }
 
     .photoGrid{
