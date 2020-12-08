@@ -468,36 +468,47 @@ form.newsletterForm button:hover {
   }
 
   .top-left {
-    color: #ffffff;
-    font-weight: 300;
+    color: #2e2e2e;
     font-size: 2rem !important;
     padding-top: 1rem;
   }
 
   .website-name {
-    color: #ffffff;
+    color: #2e2e2e;
+    font-size: 3rem !important;
+  }
+
+  .website-link, .website-link-bottom, .website-desc-bottom {
+    color: #2e2e2e;
     font-size: 3rem !important;
   }
 
   .top-center {
-    color: #ffffff;
+    color: #2e2e2e;
     font-size: 1.5rem !important;
     font-weight: 300;
-    padding-top: 1rem;
+    padding-top: 1.2rem;
   }
 
   .bottom-center {
-    color: #ffffff;
+    color: #2e2e2e;
     font-size: 1.5rem !important;
     font-weight: 300;
   }
 
-  .mainImage-button {
-    background: transparent;
-    border: 2px solid #4285f4;
+  .bottom {
+    color: #2e2e2e;
+    font-size: 1.5rem !important;
+    font-weight: 300;
+  }
+
+  .mainImage-button, .mainImage-button-center {
+    background: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
     color: #ffffff;
-    font-size: 1.2rem;
-    padding: 0.5rem 3rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 4.3rem;
     margin-top: 1.5rem;
   }
 
@@ -657,7 +668,7 @@ form.newsletterForm button:hover {
 
   .carousel-caption {
     left: 5%;
-    top: 17%;
+    top: 5%;
   }
 
   .mainContentText {
@@ -665,31 +676,52 @@ form.newsletterForm button:hover {
   }
 
   .top-left {
-    font-size: 2.5rem !important;
+    font-size: 2.3rem !important;
     padding-top: 0;
   }
 
   .website-name {
-    font-size: 3.5rem;
-    padding-left: 8rem;
+    font-size: 2.3rem !important;
+    font-weight: 600;
     padding-top: 1rem;
   }
 
-  .top-center {
-    color: #ffffff;
-    font-size: 2.5rem !important;
+  .website-link, .website-link-bottom {
+    font-size: 1.5rem !important;
     font-weight: 300;
-    padding-left: 8rem;
+    padding-top: 1.5rem;
+  }
+
+  .website-desc-bottom {
+    font-size: 1.5rem !important;
+    font-weight: 300;
+  }
+
+  .top-center {
+    color: #2e2e2e;
+    font-size: 1.5rem !important;
+    font-weight: 300;
+    padding-left: 1rem;
   }
 
   .bottom-center {
-    font-size: 2.5rem !important;
-    padding-left: 8rem;
+    font-size: 1.5rem !important;
+    padding-left: 1rem;
+    padding-top: 1.2rem;
+  }
+
+  .bottom {
+    padding-left: 1rem;
   }
 
   .mainImage-button {
-    margin-left: 8rem;
-    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  .mainImage-button-center {
+    margin-left: 5rem;
+    margin-top: 2rem;
   }
 
   .websiteNumbersImage {
