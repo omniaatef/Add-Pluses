@@ -60,7 +60,12 @@ button:hover {
   }
 
   .websiteContentFooter {
-    border-bottom: 1px solid #ffffff;
+    width: fit-content;
+    margin-left: 7rem;
+  }
+
+  .websiteInfoFooter {
+    border-top: 1px solid #ffffff;
   }
 
   .footer .websiteContentFooter > a {
@@ -93,7 +98,8 @@ button:hover {
   }
 
   .websiteContentFooter {
-    border-bottom: 0;
+    width: inherit;
+    margin-left: 0;
   }
 }
 .footer .borders {
@@ -104,6 +110,10 @@ button:hover {
 
 .footer .websiteInfoFooter > li {
   padding-bottom: 3rem;
+}
+
+.websiteInfoFooter {
+  border: 0;
 }
 
 .footer .socialMediaIcons {
