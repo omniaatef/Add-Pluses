@@ -469,25 +469,26 @@ form.newsletterForm button:hover {
 
   .top-left {
     color: #2e2e2e;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     padding-top: 1rem;
   }
 
   .website-name {
     color: #2e2e2e;
-    font-size: 3rem !important;
+    font-size: 2rem !important;
   }
 
   .website-link, .website-link-bottom, .website-desc-bottom {
     color: #2e2e2e;
-    font-size: 3rem !important;
+    font-size: 1.5rem !important;
+    font-weight: 300;
   }
 
   .top-center {
     color: #2e2e2e;
     font-size: 1.5rem !important;
     font-weight: 300;
-    padding-top: 1.2rem;
+    padding-top: 1rem;
   }
 
   .bottom-center {
@@ -624,6 +625,10 @@ form.newsletterForm button:hover {
   .inTouchFirstRow {
     margin-top: 3rem !important;
   }
+
+  .carousel-indicators, .carousel-control-prev, .carousel-control-next {
+    display: none;
+  }
 }
 @media screen and (min-width: 1200px) {
   .mobileTablet {
@@ -651,10 +656,6 @@ form.newsletterForm button:hover {
     background-color: #3d6fc2;
   }
 
-  .carousel-indicators, .carousel-control-prev, .carousel-control-next {
-    display: none;
-  }
-
   /* Make the image fully responsive */
   .carousel-inner img {
     width: 100%;
@@ -672,12 +673,10 @@ form.newsletterForm button:hover {
   }
 
   .top-left {
-    font-size: 2.3rem !important;
     padding-top: 0;
   }
 
   .website-name {
-    font-size: 2.3rem !important;
     font-weight: 600;
     padding-top: 1rem;
   }
@@ -703,7 +702,7 @@ form.newsletterForm button:hover {
   .bottom-center {
     font-size: 1.5rem !important;
     padding-left: 1rem;
-    padding-top: 1.2rem;
+    padding-top: 1rem;
   }
 
   .bottom {
