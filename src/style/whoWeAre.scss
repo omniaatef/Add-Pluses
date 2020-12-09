@@ -53,6 +53,7 @@ form input, form textarea{
 @media screen and (min-width: 320px) {
     .mainDesc{
         background-color: $primary_color;
+        text-align: center;
     }
 
     .desktopOnly{
@@ -66,7 +67,12 @@ form input, form textarea{
     
     .mainDesc p{
         color: $main_text_color2;
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+
+    .firstDescription, .secondDescription{
+        text-align: left;
+        margin-left: 2rem;
     }
 
     .secondDescription{
@@ -135,12 +141,16 @@ form input, form textarea{
     
     .mainDesc p{
         top: 50%;
-        left: 18%;
+        left: 15%;
+    }
+
+    .firstDescription, .secondDescription{
+        margin-left: 0;
     }
     
     .mainDesc .secondDescription{
         top: 65%;
-        left: 18%;
+        left: 15%;
         width: 50%;
     }
 
