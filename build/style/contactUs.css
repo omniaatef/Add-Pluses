@@ -70,6 +70,11 @@ button:hover {
     padding: 0.5rem 2rem;
   }
 
+  .getInTouch {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .getInTouch .getInTouchHeader {
     border-bottom: 2px solid #4285f4;
     border-width: thick;
@@ -132,6 +137,11 @@ button:hover {
     position: absolute;
     top: 60%;
     left: 60%;
+  }
+
+  .getInTouch {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .getInTouch .getInTouchHeader {
