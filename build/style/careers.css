@@ -69,19 +69,6 @@ button:hover {
     outline: none;
     font-size: 1.4rem;
   }
-
-  .anotherPositionContent {
-    background-color: #2e2e2e;
-    color: #ffffff;
-  }
-
-  .contactusBtn {
-    background-color: #4285f4;
-    border: 0;
-    color: #ffffff;
-    padding: 0.5rem 2rem;
-    margin-top: 1rem;
-  }
 }
 @media screen and (min-width: 1200px) {
   .mainDescription {
