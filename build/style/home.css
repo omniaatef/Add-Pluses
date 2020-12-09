@@ -206,13 +206,28 @@ form.newsletterForm button:hover {
   }
 
   .mainBgMobile {
-    background-color: #a9b8c0;
+    background-color: #ffffff;
   }
 
   .mainContentMobile {
-    color: #ffffff;
+    color: #2e2e2e;
     padding-top: 2rem;
     padding-left: 1rem;
+  }
+
+  .carousel-caption {
+    top: 33%;
+    left: 8%;
+  }
+
+  .mainImage-button, .mainImage-button-center {
+    background: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 0.2rem 2rem;
+    margin-top: 1.5rem;
   }
 
   .mainContentMobile .mainDesc {
@@ -497,20 +512,16 @@ form.newsletterForm button:hover {
     font-weight: 300;
   }
 
+  .mainImage-button, .mainImage-button-center {
+    font-size: 1.5rem;
+    padding: 0.5rem 4.3rem;
+    margin-top: 1.5rem;
+  }
+
   .bottom {
     color: #2e2e2e;
     font-size: 1.5rem !important;
     font-weight: 300;
-  }
-
-  .mainImage-button, .mainImage-button-center {
-    background: #4285f4;
-    border: 1px solid #4285f4;
-    border-radius: 3px;
-    color: #ffffff;
-    font-size: 1.5rem;
-    padding: 0.5rem 4.3rem;
-    margin-top: 1.5rem;
   }
 
   .websiteNumbersContent {

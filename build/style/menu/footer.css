@@ -59,11 +59,6 @@ button:hover {
     list-style-type: none;
   }
 
-  .websiteContentFooter {
-    width: fit-content;
-    margin-left: 7rem;
-  }
-
   .websiteInfoFooter {
     border-top: 1px solid #ffffff;
   }
@@ -118,7 +113,7 @@ button:hover {
 
 .footer .socialMediaIcons {
   color: #ffffff;
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 
 .footer .socialMediaIcons:hover {

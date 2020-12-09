@@ -173,13 +173,28 @@ form.newsletterForm button:hover {
     }
 
     .mainBgMobile{
-        background-color: $main_bgColor_mobile;
+        background-color: $main_text_color2;
     }
 
     .mainContentMobile{
-        color: $main_text_color2;
+        color: $primary_color;
         padding-top: 2rem;
         padding-left: 1rem;
+    }
+
+    .carousel-caption{
+        top: 33%;
+        left: 8%;
+    }
+
+    .mainImage-button, .mainImage-button-center{
+        background: $main_button_color;
+        border: 1px solid $main_button_color;
+        border-radius: 3px;
+        color: $main_text_color2;
+        font-size: 1.2rem;
+        padding: 0.2rem 2rem;
+        margin-top: 1.5rem;
     }
 
     .mainContentMobile .mainDesc{
@@ -493,20 +508,17 @@ form.newsletterForm button:hover {
         font-weight: $mainImage-font-weight;
     }
 
+    .mainImage-button, .mainImage-button-center{
+        font-size: 1.5rem;
+        padding: 0.5rem 4.3rem;
+        margin-top: 1.5rem;
+    }
+
+
     .bottom{
         color: $primary_color;
         font-size: 1.5rem !important;
         font-weight: $mainImage-font-weight;
-    }
-
-    .mainImage-button, .mainImage-button-center{
-        background: $main_button_color;
-        border: 1px solid $main_button_color;
-        border-radius: 3px;
-        color: $main_text_color2;
-        font-size: 1.5rem;
-        padding: 0.5rem 4.3rem;
-        margin-top: 1.5rem;
     }
 
     .websiteNumbersContent{
