@@ -636,6 +636,12 @@ form.newsletterForm button:hover {
     .carousel-indicators, .carousel-control-prev, .carousel-control-next{
         display: none;
     }
+
+    .carousel-caption{
+        left: 5%;
+        top: 1%;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
