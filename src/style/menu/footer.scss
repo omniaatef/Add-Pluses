@@ -30,6 +30,12 @@
     .footer .websiteContentFooter>a:hover{
         color: $hovering_color;
     }
+
+    .paddingFooter{
+        width: fit-content;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
     
 }
 
@@ -53,6 +59,8 @@
         margin-left: 3rem;
         line-height: 1.6rem;
         padding-left: 4rem;
+        margin-right: 0;
+        width: auto;
     }
 
     .websiteContentFooter{

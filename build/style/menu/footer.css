@@ -71,6 +71,12 @@ button:hover {
   .footer .websiteContentFooter > a:hover {
     color: #3d6fc2;
   }
+
+  .paddingFooter {
+    width: fit-content;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer .footerLogo {
@@ -90,6 +96,8 @@ button:hover {
     margin-left: 3rem;
     line-height: 1.6rem;
     padding-left: 4rem;
+    margin-right: 0;
+    width: auto;
   }
 
   .websiteContentFooter {
