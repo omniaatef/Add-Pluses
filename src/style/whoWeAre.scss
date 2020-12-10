@@ -93,6 +93,14 @@ form input, form textarea{
         color: $main_text_color2;
         padding: 0.5rem 2rem;
     }
+
+    .about-us-section .oneElement{
+        text-align: center;
+    }
+
+    .oneElement p{
+        text-align: left;
+    }
         
 }
 
@@ -113,6 +121,10 @@ form input, form textarea{
 
     .haveAnIdeaContent{
         text-align: center;
+    }
+
+    .about-us-section .oneElement{
+        text-align: left;
     }
     
 }
@@ -184,6 +196,11 @@ form input, form textarea{
         margin-left: 3rem;
         margin-right: 3rem;
     }
+
+    .about-us-section{
+        margin-left: 3rem;
+    }
+    
 }
 
 

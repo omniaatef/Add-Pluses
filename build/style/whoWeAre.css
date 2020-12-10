@@ -134,6 +134,14 @@ form input, form textarea {
     color: #ffffff;
     padding: 0.5rem 2rem;
   }
+
+  .about-us-section .oneElement {
+    text-align: center;
+  }
+
+  .oneElement p {
+    text-align: left;
+  }
 }
 @media screen and (min-width: 768px) {
   .mainDesc {
@@ -151,6 +159,10 @@ form input, form textarea {
 
   .haveAnIdeaContent {
     text-align: center;
+  }
+
+  .about-us-section .oneElement {
+    text-align: left;
   }
 }
 @media screen and (min-width: 1100px) {
@@ -219,6 +231,10 @@ form input, form textarea {
     margin-bottom: 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+
+  .about-us-section {
+    margin-left: 3rem;
   }
 }
 
