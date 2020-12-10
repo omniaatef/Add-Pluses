@@ -403,11 +403,12 @@ form.newsletterForm button:hover {
   }
 
   .startProject {
-    color: #ffffff;
     background-color: #4285f4;
     border: 0;
+    color: #ffffff;
+    font-size: 1.3rem;
     text-align: center;
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 2rem;
   }
 
   .ourClientsDesktop {

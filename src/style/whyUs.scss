@@ -9,7 +9,7 @@
     
     .addplusesNumbers .mainHeaderNumbers{
         color: $main_text_color2;
-        font-size: 1.3rem;
+        font-size: 1.7rem;
         border-bottom: 3px solid $main_button_color;
         border-width: thick;
         padding-bottom: 0.5rem;
@@ -39,7 +39,7 @@
     }
 
     .competencies span{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         border-bottom: 3px solid $main_button_color;
         border-width: thick;
     }
@@ -85,6 +85,8 @@
     .kickoff h2, .kickoff p{
         color: $main_text_color2;
     }
+
+
 
     .marketsImg{
         margin-top: 3rem;
@@ -154,6 +156,10 @@
 
     .kickoff h2, .kickoff p{
         padding-top: 3rem;
+    }
+
+    .kickoff p{
+        padding-left: 3rem;
     }
 }
   

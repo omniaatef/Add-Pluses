@@ -44,7 +44,6 @@ button:hover {
 nav {
   font-family: "Roboto";
   background-color: #2e2e2e;
-  position: fixed;
   z-index: 1000;
 }
 
@@ -68,6 +67,10 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+#selectedLink {
+  width: fit-content;
 }
 
 @media screen and (min-width: 320px) {

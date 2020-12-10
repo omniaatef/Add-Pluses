@@ -395,11 +395,12 @@ form.newsletterForm button:hover {
     }
 
     .startProject{
-        color: $main_text_color2;
         background-color: $main_button_color;
         border: 0;
+        color: $main_text_color2;
+        font-size: 1.3rem;
         text-align: center;
-        padding: 0.5rem 1.5rem;
+        padding: 1rem 2rem;
     }
 
     .ourClientsDesktop{
