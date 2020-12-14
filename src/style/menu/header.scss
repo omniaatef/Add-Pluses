@@ -22,7 +22,6 @@ nav{
 
 #selectedLink{
     color: $main_button_color;
-    width: fit-content;
 }
 
 @media screen and (min-width: 320px) {
@@ -43,6 +42,9 @@ nav{
 
     .intouchLink{
         border-bottom: 2px solid $main_button_color;
+    }
+    
+    #selectedLink{
         color: $main_text_color2;
     }
 
