@@ -400,7 +400,7 @@ form.newsletterForm button:hover {
         color: $main_text_color2;
         font-size: 1.3rem;
         text-align: center;
-        padding: 1rem 2rem;
+        padding: 0.5rem 1rem;
     }
 
     .ourClientsDesktop{
@@ -634,7 +634,7 @@ form.newsletterForm button:hover {
         margin-top: 3rem !important;
     }
 
-    .carousel-indicators, .carousel-control-prev, .carousel-control-next{
+    .carousel-home{
         display: none;
     }
 
@@ -672,7 +672,7 @@ form.newsletterForm button:hover {
     }
 
     /* Make the image fully responsive */
-    .carousel-inner img {
+    .carousel-images img {
         width: 100%;
         height: auto;
         position: relative;

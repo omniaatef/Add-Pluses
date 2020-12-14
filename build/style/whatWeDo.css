@@ -141,11 +141,11 @@ button:hover {
   .technologies span, .developmentService span {
     line-height: 1.5;
   }
-}
-.developmentService .row {
-  padding-top: 3rem;
-}
 
+  .developmentService .row {
+    padding-top: 3rem;
+  }
+}
 .technologiesContainer {
   padding: 4rem;
 }

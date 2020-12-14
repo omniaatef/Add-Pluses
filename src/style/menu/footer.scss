@@ -26,15 +26,13 @@
         padding-bottom: 0.7rem;
         color: $main_text_color2;
     }
+
+    .intouchLink{
+        color: $main_button_color;
+    }    
     
     .footer .websiteContentFooter>a:hover{
         color: $hovering_color;
-    }
-
-    .paddingFooter{
-        width: fit-content;
-        margin-left: 6rem;
-        margin-right: 6rem;
     }
     
 }

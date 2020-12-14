@@ -113,7 +113,8 @@ form input, form textarea {
 
   .firstDescription, .secondDescription {
     text-align: left;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 
   .secondDescription {
@@ -194,6 +195,7 @@ form input, form textarea {
 
   .firstDescription, .secondDescription {
     margin-left: 0;
+    margin-right: 0;
   }
 
   .mainDesc .secondDescription {

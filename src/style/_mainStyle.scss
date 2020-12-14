@@ -31,6 +31,10 @@ button:hover{
     .desktopOnly {
         display: none;
     }
+
+    .desktopTablet{
+        display: none;
+    }
     
 }
 
@@ -42,6 +46,11 @@ button:hover{
     .mobile{
         display: none;
     }
+
+    .desktopTablet{
+        display: flex;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
