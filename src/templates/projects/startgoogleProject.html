@@ -22,6 +22,31 @@
         <link rel="stylesheet" href="../../../build/style/menu/footer.css">
         <!-- <link rel="import" href="../templates/menu/header.html"> -->
         <link rel="icon" href="../../../assets/fav.ico">
+        <style>
+            .video {
+                overflow: hidden;
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+
+            .video video {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+            .overlay {
+                background: url('/assets/videoOverlay.png');
+                position: absolute;
+                top:0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+
+            }
+        </style>
     </head>
     <body>
         <!-- Header Component -->
@@ -46,18 +71,19 @@
 
         <!-- project page content -->
         <div class="projectPage">
-            <div style="height: 431px; background-color: #434343;">
-                <div style="text-align: center; padding-top: 9rem;">
-                    <img src="../../../assets/startgoogleLogo.png">
+            <div style="height: 430px; background-color: #434343;position: relative;">
+                <div class="video">
+                    <video class="bannerVideo" autoplay muted>
+                        <source type="video/mp4" src="../../../assets/videos/video.mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="overlay"></div>
+                </div>
+                <div style="text-align: center; padding-top: 9rem;position: absolute;left: 0;right: 0;top: 0;">
+                    <img src="../../../assets/startwithgoogle-data-img.png">
                 </div>
             </div>
 
-            <!-- <div class="video">
-                <video class="bannerVideo" autoplay muted>
-                    <source type="video/mp4" src="../../../assets/video.mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div> -->
             <!-- Services Section -->
             <div class="services">
                 <div class="container py-5">
