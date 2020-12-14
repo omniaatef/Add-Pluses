@@ -461,6 +461,10 @@ form.newsletterForm button:hover {
     .inTouchFirstRow{
         margin-top: 0 !important;
     }
+
+    .intouchLink{
+        color: $main_button_color;
+    }
 }
 
 @media screen and (min-width: 768px) {

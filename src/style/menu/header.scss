@@ -6,20 +6,12 @@ nav{
     z-index: 1000;
 }
 
-.nav-item{
-    color: $main_text_color2;
-}
-
 .nav-item:hover{
     color: $hovering_color;
 }
 
 .nav-item:active{
     color: $hovering_color;
-}
-
-.intouchLink{
-    color: $main_button_color;
 }
 
 .sticky {
@@ -29,6 +21,7 @@ nav{
 }
 
 #selectedLink{
+    color: $main_button_color;
     width: fit-content;
 }
 
@@ -36,11 +29,22 @@ nav{
     nav img{
         width: 80% !important;
     }
+
+    .intouchLink{
+        color: $main_button_color;
+    }
+    
 }
 
 @media screen and (min-width: 768px) {
     nav img{
         width: 100% !important;
     }
+
+    .intouchLink{
+        border-bottom: 2px solid $main_button_color;
+        color: $main_text_color2;
+    }
+
 }
 

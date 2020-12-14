@@ -38,7 +38,7 @@
                     <a href="/whatWeDo.html" class="nav-item nav-link tablinks" style="color: #fff">WHAT WE DO</a>
                     <a href="/ourWork.html" class="nav-item nav-link tablinks" style="color: #fff">OUR WORK</a>
                     <a href="/careers.html" class="nav-item nav-link tablinks" style="color: #fff">CAREERS</a>
-                    <a id="selectedLink" href="/contactUs.html" class="nav-item nav-link tablinks intouch" style="color: #fff">GET IN TOUCH</a>
+                    <a id="selectedLink" href="/contactUs.html" class="nav-item nav-link tablinks intouch">GET IN TOUCH</a>
                 </div>
             </div>
         </nav>
@@ -312,9 +312,15 @@
 
             $(document).ready(function () {
             // Handler for .ready() called.
-            $('html, body').animate({
-                scrollTop: $('.addressContent').offset().top
-            }, 'slow');
+            if($(window).width()<=1199){
+                $('html, body').animate({
+                    scrollTop: $('.getInTouch').offset().top
+                }, 'slow');
+            }else{
+                $('html, body').animate({
+                    scrollTop: $('.getDirectionsBtn').offset().top
+                }, 'slow');
+            }
 
             var queryString = window.location.search;
             if(queryString == "?position=UI"){
