@@ -22,6 +22,10 @@ button:hover {
   .desktopOnly {
     display: none;
   }
+
+  .desktopTablet {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   .desktop, .tablet {
@@ -31,8 +35,12 @@ button:hover {
   .mobile {
     display: none;
   }
+
+  .desktopTablet {
+    display: flex;
+  }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .desktopOnly {
     display: block;
   }
@@ -118,7 +126,7 @@ button:hover {
     text-align: center;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .column2 {
     margin-top: 5rem;
   }

@@ -40,7 +40,7 @@ button:hover {
     display: flex;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .desktopOnly {
     display: block;
   }
@@ -659,7 +659,7 @@ form.newsletterForm button:hover {
     top: 1%;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .mobileTablet {
     display: none;
   }
@@ -683,11 +683,6 @@ form.newsletterForm button:hover {
 
   .intouch:hover {
     background-color: #3d6fc2;
-  }
-
-  .intouchLink {
-    border-bottom: 2px solid #4285f4;
-    color: #ffffff;
   }
 
   /* Make the image fully responsive */
