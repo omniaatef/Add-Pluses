@@ -1,126 +1,116 @@
 body {
-  font-family: "Roboto";
-}
+  font-family: "Roboto"; }
 
 button:focus {
-  outline: 0;
-}
+  outline: 0; }
 
 button:hover {
-  background-color: #3d6fc2;
-}
+  background-color: #3d6fc2; }
 
 @media screen and (min-width: 320px) {
   .desktop, .tablet {
-    display: none;
-  }
+    display: none; }
 
   .mobile, .mobileTablet {
-    display: block;
-  }
+    display: block; }
 
   .desktopOnly {
-    display: none;
-  }
+    display: none; }
 
   .desktopTablet {
-    display: none;
-  }
-}
+    display: none; } }
 @media screen and (min-width: 768px) {
   .desktop, .tablet {
-    display: block;
-  }
+    display: block; }
 
   .mobile {
-    display: none;
-  }
+    display: none; }
 
   .desktopTablet {
-    display: flex;
-  }
-}
+    display: flex; } }
 @media screen and (min-width: 1024px) {
   .desktopOnly {
-    display: block;
-  }
+    display: block; }
 
   .tablet, .mobileTablet {
-    display: none;
-  }
-}
+    display: none; } }
+.video {
+  overflow: hidden;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .video video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+  .video .overlay {
+    background: url(/assets/videoOverlay.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%; }
+
 body {
-  font-family: "Roboto";
-}
+  font-family: "Roboto"; }
 
 img {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 .websiteNumbers {
-  background-color: #2e2e2e;
-}
+  background-color: #2e2e2e; }
 
 .websiteNumbersImage {
-  margin: 4rem;
-}
+  margin: 4rem; }
 
 .websiteNumbersContent h2 {
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 .websiteNumbersContent p {
-  font-size: 1rem;
-}
+  font-size: 1rem; }
 
 .websiteServicesImage {
   margin: 4rem;
   position: sticky;
-  top: 2rem;
-}
+  top: 2rem; }
 
 .all_servicesLink {
   color: #000000;
   font-size: 2rem;
   font-weight: bold;
-  border-bottom: 3px solid #4285f4;
-}
+  border-bottom: 3px solid #4285f4; }
 
 .all_servicesLink:hover {
   text-decoration: none;
-  color: #4285f4;
-}
+  color: #4285f4; }
 
 .websiteWork a:not(.workImgs) {
   border-bottom: 2px solid #4285f4;
   border-width: thick;
   color: #ffffff;
-  font-size: 1.7rem;
-}
+  font-size: 1.7rem; }
 
 .websiteWork a:not(.workImgs):hover {
   text-decoration: none;
-  color: #4285f4;
-}
+  color: #4285f4; }
 
 .projectsImages {
   position: absolute;
   left: 15%;
-  top: 6%;
-}
+  top: 6%; }
 
 .haveAnIdea {
-  position: relative;
-}
+  position: relative; }
 
 .haveAnIdea > h2 {
   color: #ffffff;
   position: absolute;
   top: 15%;
-  left: 20%;
-}
+  left: 20%; }
 
 .haveAnIdea > button {
   background-color: #4285f4;
@@ -130,12 +120,10 @@ img {
   top: 35%;
   left: 20%;
   font-size: 1.5rem;
-  padding: 0.5rem 2rem;
-}
+  padding: 0.5rem 2rem; }
 
 .NewsLetter {
-  position: relative;
-}
+  position: relative; }
 
 .NewsLetter > .newsLetterHeader1 {
   color: #ffffff;
@@ -143,8 +131,7 @@ img {
   font-weight: 300;
   position: absolute;
   top: 30%;
-  left: 25%;
-}
+  left: 25%; }
 
 .NewsLetter > .newsLetterHeader2 {
   color: #ffffff;
@@ -152,14 +139,12 @@ img {
   font-weight: 700;
   position: absolute;
   top: 45%;
-  left: 25%;
-}
+  left: 25%; }
 
 .NewsLetter > .newsletterForm {
   position: absolute;
   top: 75%;
-  left: 25%;
-}
+  left: 25%; }
 
 form.newsletterForm input[type=text] {
   padding: 0.5rem 2.5rem 0.5rem 1.5rem;
@@ -167,8 +152,7 @@ form.newsletterForm input[type=text] {
   border: 1px solid grey;
   float: left;
   width: 70%;
-  background: #f1f1f1;
-}
+  background: #f1f1f1; }
 
 form.newsletterForm button {
   float: left;
@@ -179,54 +163,43 @@ form.newsletterForm button {
   font-size: 1.1rem;
   border: 1px solid grey;
   border-left: none;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 form.newsletterForm button:hover {
-  background: #0b7dda;
-}
+  background: #0b7dda; }
 
 .getInTouchImage {
-  margin: 4rem;
-}
+  margin: 4rem; }
 
 .getInTouchForm input, .getInTouchForm textarea {
   border: 1px solid #696969;
   color: #696969;
-  width: 100%;
-}
+  width: 100%; }
 
 .getInTouchForm textarea {
-  width: 100%;
-}
+  width: 100%; }
 
 .msgInput {
-  padding-bottom: 4.2rem !important;
-}
+  padding-bottom: 4.2rem !important; }
 
 @media screen and (min-width: 320px) {
   .desktop {
-    display: none;
-  }
+    display: none; }
 
   .mobileTablet {
-    display: block;
-  }
+    display: block; }
 
   .mainBgMobile {
-    background-color: #ffffff;
-  }
+    background-color: #ffffff; }
 
   .mainContentMobile {
     color: #2e2e2e;
     padding-top: 2rem;
-    padding-left: 1rem;
-  }
+    padding-left: 1rem; }
 
   .carousel-caption {
     top: 33%;
-    left: 8%;
-  }
+    left: 8%; }
 
   .mainImage-button, .mainImage-button-center {
     background: #4285f4;
@@ -235,12 +208,10 @@ form.newsletterForm button:hover {
     color: #ffffff;
     font-size: 1.2rem;
     padding: 0.2rem 2rem;
-    margin-top: 1.5rem;
-  }
+    margin-top: 1.5rem; }
 
   .mainContentMobile .mainDesc {
-    padding-top: 1rem;
-  }
+    padding-top: 1rem; }
 
   .startProBtnMobile {
     background: transparent;
@@ -249,166 +220,130 @@ form.newsletterForm button:hover {
     font-size: 1rem;
     padding: 0.5rem 2rem;
     margin-top: 1rem;
-    margin-bottom: 2rem;
-  }
+    margin-bottom: 2rem; }
 
   .startProBtnMobile:focus {
-    outline: 0;
-  }
+    outline: 0; }
 
   .startProBtnMobile:hover {
-    background: #4285f4;
-  }
+    background: #4285f4; }
 
   .websiteDesktop {
-    display: none;
-  }
+    display: none; }
 
   .websiteNumbersImage {
-    display: none;
-  }
+    display: none; }
 
   .websiteNumbersMobile {
     color: #ffffff;
-    font-size: 1.7rem;
-  }
+    font-size: 1.7rem; }
 
   .websiteNumbersMobile p {
     padding-left: 2rem;
-    font-weight: bold;
-  }
+    font-weight: bold; }
 
   .firstWebsiteNumbersContent h2, .firstWebsiteNumbersContent p {
-    border-left: 0;
-  }
+    border-left: 0; }
 
   .lastWebsiteNumbersContent h2, .lastWebsiteNumbersContent p {
-    border-right: 0;
-  }
+    border-right: 0; }
 
   .websiteNumbersContent {
     padding-top: 0;
     color: #ffffff;
-    text-align: center;
-  }
+    text-align: center; }
 
   .websiteNumbersContent h2 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 0;
-    margin-top: 0.5rem;
-  }
+    margin-top: 0.5rem; }
 
   .websiteNumbersContent p {
     margin-top: 1rem;
-    font-weight: bold;
-  }
+    font-weight: bold; }
 
   .spacing {
-    display: none;
-  }
+    display: none; }
 
   .secondWebsitenumbers {
-    padding-top: 0;
-  }
+    padding-top: 0; }
 
   .lastWebsiteNumbersContent {
-    margin-bottom: 2rem;
-  }
+    margin-bottom: 2rem; }
 
   .websiteServicesMobile, .websiteClientsMobile {
     color: #000000;
-    font-size: 1.7rem;
-  }
+    font-size: 1.7rem; }
 
   .websiteServicesMobile bold, .websiteClientsMobile bold {
-    font-weight: bold;
-  }
+    font-weight: bold; }
 
   .addPadding {
-    padding-right: 15px;
-  }
+    padding-right: 15px; }
 
   .servicesImages img {
-    padding-top: 2rem;
-  }
+    padding-top: 2rem; }
 
   .servicesTopContentText, .servicesContentText {
     padding-top: 0;
-    text-align: left;
-  }
+    text-align: left; }
 
   .all_services {
-    text-align: center;
-  }
+    text-align: center; }
 
   .websiteWorkImage {
-    display: none;
-  }
+    display: none; }
 
   .websiteWorkTablet {
-    display: none;
-  }
+    display: none; }
 
   .websiteWorkMobileContent {
-    background-color: #2e2e2e;
-  }
+    background-color: #2e2e2e; }
 
   .websiteWorkMobile {
     color: #ffffff;
     font-size: 1.7rem;
-    padding-left: 1rem;
-  }
+    padding-left: 1rem; }
 
   .websiteWorkMobile bold {
-    font-weight: bold;
-  }
+    font-weight: bold; }
 
   .ourWorkImages {
-    padding: 1rem;
-  }
+    padding: 1rem; }
 
   .ourWorkImages img {
-    padding-top: 1.5rem;
-  }
+    padding-top: 1.5rem; }
 
   .all_projects {
-    text-align: center;
-  }
+    text-align: center; }
 
   .all_projects a {
     border-bottom: 3px solid #4285f4;
     color: #ffffff;
     font-size: 2rem;
-    font-weight: bold;
-  }
+    font-weight: bold; }
 
   .all_projects a:hover {
     color: #4285f4;
-    text-decoration: none;
-  }
+    text-decoration: none; }
 
   hr {
-    background-color: #4285f4;
-  }
+    background-color: #4285f4; }
 
   .haveAnIdeaMobile {
     background-color: #2e2e2e;
-    color: #ffffff;
-  }
+    color: #ffffff; }
 
   .haveAnIdeaTablet {
-    display: none;
-  }
+    display: none; }
 
   .haveAnIdeaContent bold {
-    font-weight: bold;
-  }
+    font-weight: bold; }
 
   .startProjectBtnMob {
     text-align: center;
-    padding: 2.5rem 0;
-  }
+    padding: 2.5rem 0; }
 
   .startProject {
     background-color: #4285f4;
@@ -416,46 +351,36 @@ form.newsletterForm button:hover {
     color: #ffffff;
     font-size: 1.3rem;
     text-align: center;
-    padding: 0.5rem 1rem;
-  }
+    padding: 0.5rem 1rem; }
 
   .ourClientsDesktop {
-    display: none;
-  }
+    display: none; }
 
   .websiteClientsTablet {
-    display: none;
-  }
+    display: none; }
 
   .clientsImage {
-    width: 40%;
-  }
+    width: 40%; }
 
   .clientsDesktop {
-    display: none;
-  }
+    display: none; }
 
   .newsLetter {
-    background-color: #2e2e2e;
-  }
+    background-color: #2e2e2e; }
 
   .NewsLetterTablet {
-    display: none;
-  }
+    display: none; }
 
   .newsLetter h4 {
     color: #ffffff;
-    padding: 3rem 3rem 1rem 3rem;
-  }
+    padding: 3rem 3rem 1rem 3rem; }
 
   .newsLetter .newsletterFormMobile {
-    padding: 1rem 1rem 3rem 1rem;
-  }
+    padding: 1rem 1rem 3rem 1rem; }
 
   .newsletterFormMobile input {
     float: left;
-    padding: 0.2rem 0.2rem 0.2rem 0.5rem;
-  }
+    padding: 0.2rem 0.2rem 0.2rem 0.5rem; }
 
   .newsletterFormMobile button {
     padding: 0.2rem 0.5rem;
@@ -463,163 +388,129 @@ form.newsletterForm button:hover {
     color: #ffffff;
     font-size: 1.1rem;
     border: 1px solid grey;
-    border-left: none;
-  }
+    border-left: none; }
 
   .getInTouchMobileImg {
-    font-size: 1.7rem;
-  }
+    font-size: 1.7rem; }
 
   .getInTouchMobile {
-    display: block;
-  }
+    display: block; }
 
   .inTouchFirstRow {
-    margin-top: 0 !important;
-  }
+    margin-top: 0 !important; }
 
   .intouchLink {
-    color: #4285f4;
-  }
-}
+    color: #4285f4; } }
 @media screen and (min-width: 768px) {
   .desktop {
-    display: block;
-  }
+    display: block; }
 
   .mobile {
-    display: none;
-  }
+    display: none; }
 
   .mainContentText {
-    padding: 2rem;
-  }
+    padding: 2rem; }
 
   .top-left {
     color: #2e2e2e;
     font-size: 1.5rem !important;
-    padding-top: 1rem;
-  }
+    padding-top: 1rem; }
 
   .website-name {
     color: #2e2e2e;
-    font-size: 2rem !important;
-  }
+    font-size: 2rem !important; }
 
   .website-link, .website-link-bottom, .website-desc-bottom {
     color: #2e2e2e;
     font-size: 1.5rem !important;
-    font-weight: 300;
-  }
+    font-weight: 300; }
 
   .top-center {
     color: #2e2e2e;
     font-size: 1.5rem !important;
     font-weight: 300;
-    padding-top: 1rem;
-  }
+    padding-top: 1rem; }
 
   .bottom-center {
     color: #2e2e2e;
     font-size: 1.5rem !important;
-    font-weight: 300;
-  }
+    font-weight: 300; }
 
   .mainImage-button, .mainImage-button-center {
     font-size: 1.5rem;
     padding: 0.5rem 4.3rem;
-    margin-top: 1.5rem;
-  }
+    margin-top: 1.5rem; }
 
   .bottom {
     color: #2e2e2e;
     font-size: 1.5rem !important;
-    font-weight: 300;
-  }
+    font-weight: 300; }
 
   .websiteNumbersContent {
-    padding-top: 5rem;
-  }
+    padding-top: 5rem; }
 
   .websiteNumbersContent h2 {
     font-size: 3rem;
-    margin-top: 0;
-  }
+    margin-top: 0; }
 
   .websiteNumbersContent p {
     margin-top: 0;
-    font-weight: 500;
-  }
+    font-weight: 500; }
 
   .secondWebsitenumbers {
-    padding-top: 1rem;
-  }
+    padding-top: 1rem; }
 
   .lastWebsiteNumbersContent {
-    margin-bottom: 0;
-  }
+    margin-bottom: 0; }
 
   .addPadding {
-    padding-right: 0;
-  }
+    padding-right: 0; }
 
   .servicesTopContentText {
     padding-top: 7rem;
-    padding-left: 0;
-  }
+    padding-left: 0; }
 
   .servicesContentText {
     padding-top: 5rem;
-    padding-left: 0;
-  }
+    padding-left: 0; }
 
   .all_services {
-    text-align: start;
-  }
+    text-align: start; }
 
   .websiteWorkTablet {
-    background-color: #2e2e2e;
-  }
+    background-color: #2e2e2e; }
 
   .websiteWorkImage {
-    display: none;
-  }
+    display: none; }
 
   .mobileTablet .ourWorkDetails {
-    margin-top: 2rem;
-  }
+    margin-top: 2rem; }
 
   .photoGrid {
     padding-right: 3rem;
-    padding-left: 3rem;
-  }
+    padding-left: 3rem; }
 
   .ourWorkText {
-    padding: 2rem;
-  }
+    padding: 2rem; }
 
   .websiteWorkTablet {
-    display: block;
-  }
+    display: block; }
 
   .websiteWorkTablet span {
     border-bottom: 2px solid #4285f4;
     border-width: thick;
     color: #ffffff;
-    font-size: 1.7rem;
-  }
+    font-size: 1.7rem; }
 
   .haveAnIdeaTablet, .NewsLetterTablet {
     background-color: #2e2e2e;
     color: #ffffff;
     padding: 3rem;
-    text-align: center;
-  }
+    text-align: center; }
 
   .NewsLetterTablet {
     display: block;
-    padding: 5rem;
-  }
+    padding: 5rem; }
 
   .haveAnIdeaTablet > button {
     background-color: #4285f4;
@@ -627,203 +518,158 @@ form.newsletterForm button:hover {
     border: 1px solid #4285f4;
     font-size: 1.5rem;
     padding: 0.5rem 2rem;
-    margin-top: 1rem;
-  }
+    margin-top: 1rem; }
 
   .clientsImage {
-    width: 80%;
-  }
+    width: 80%; }
 
   .clientsDesktop {
-    display: flex;
-  }
+    display: flex; }
 
   .websiteClientsTablet {
-    display: block;
-  }
+    display: block; }
 
   .getInTouchMobile, .getInTouchImage {
-    display: none;
-  }
+    display: none; }
 
   .inTouchFirstRow {
-    margin-top: 3rem !important;
-  }
+    margin-top: 3rem !important; }
 
   .carousel-home {
-    display: none;
-  }
+    display: none; }
 
   .carousel-caption {
     left: 5%;
-    top: 1%;
-  }
-}
+    top: 1%; } }
 @media screen and (min-width: 1024px) {
   .mobileTablet {
-    display: none;
-  }
+    display: none; }
 
   #myHeader {
     padding-left: 5rem;
-    padding-right: 5rem;
-  }
+    padding-right: 5rem; }
 
   .navbar-nav a {
-    font-size: 1.1rem;
-  }
+    font-size: 1.1rem; }
 
   .navbar-nav a:hover {
-    border-bottom: 2px solid #4285f4;
-  }
+    border-bottom: 2px solid #4285f4; }
 
   .intouch {
-    background-color: #4285f4;
-  }
+    background-color: #4285f4; }
 
   .intouch:hover {
-    background-color: #3d6fc2;
-  }
+    background-color: #3d6fc2; }
 
   /* Make the image fully responsive */
   .carousel-images img {
     width: 100%;
     height: auto;
-    position: relative;
-  }
+    position: relative; }
 
   .carousel-caption {
     left: 5%;
-    top: 1%;
-  }
+    top: 1%; }
 
   .mainContentText {
-    padding: 7rem 4rem;
-  }
+    padding: 7rem 4rem; }
 
   .top-left {
-    padding-top: 0;
-  }
+    padding-top: 0; }
 
   .website-name {
     font-weight: 600;
-    padding-top: 1rem;
-  }
+    padding-top: 1rem; }
 
   .website-link, .website-link-bottom {
     font-size: 1.5rem !important;
     font-weight: 300;
-    padding-top: 1.5rem;
-  }
+    padding-top: 1.5rem; }
 
   .website-desc-bottom {
     font-size: 1.5rem !important;
-    font-weight: 300;
-  }
+    font-weight: 300; }
 
   .top-center {
     color: #2e2e2e;
     font-size: 1.5rem !important;
     font-weight: 300;
-    padding-left: 1rem;
-  }
+    padding-left: 1rem; }
 
   .bottom-center {
     font-size: 1.5rem !important;
     padding-left: 1rem;
-    padding-top: 1rem;
-  }
+    padding-top: 1rem; }
 
   .bottom {
-    padding-left: 1rem;
-  }
+    padding-left: 1rem; }
 
   .mainImage-button {
     margin-left: 1rem;
-    margin-top: 1.2rem;
-  }
+    margin-top: 1.2rem; }
 
   .mainImage-button-center {
     margin-left: 5rem;
-    margin-top: 2rem;
-  }
+    margin-top: 2rem; }
 
   .websiteNumbersImage {
-    display: block;
-  }
+    display: block; }
 
   .websiteDesktop {
-    display: flex;
-  }
+    display: flex; }
 
   .spacing {
-    display: block;
-  }
+    display: block; }
 
   .firstWebsiteNumbersContent h2, .firstWebsiteNumbersContent p {
-    border-left: 6px solid #4285f4;
-  }
+    border-left: 6px solid #4285f4; }
 
   .lastWebsiteNumbersContent h2, .lastWebsiteNumbersContent p {
-    border-right: 6px solid #4285f4;
-  }
+    border-right: 6px solid #4285f4; }
 
   .websiteWorkImage {
     display: block;
     margin: 4rem;
     position: sticky;
-    top: 2rem;
-  }
+    top: 2rem; }
 
   .websiteWork {
     background-image: url("../../assets/ourWorkBg.png");
     height: 1224px;
     background-color: #2e2e2e;
-    background-repeat: no-repeat;
-  }
+    background-repeat: no-repeat; }
 
   .workImgs img {
     opacity: 1;
-    transition: 0.5s ease;
-  }
+    transition: .5s ease; }
 
   .workImgs:hover img {
-    opacity: 0.3;
-  }
+    opacity: 0.3; }
 
   .photoGrid {
-    padding-right: 5rem;
-  }
+    padding-right: 5rem; }
 
   .ourWorkText {
-    padding: 5rem;
-  }
+    padding: 5rem; }
 
   .haveAnIdeaTablet {
-    display: none;
-  }
+    display: none; }
 
   .NewsLetterTablet {
-    display: none;
-  }
+    display: none; }
 
   .ourClientsDesktop {
     display: block;
     position: sticky;
-    top: 2rem;
-  }
+    top: 2rem; }
 
   .websiteClientsTablet {
-    display: none;
-  }
+    display: none; }
 
   .getInTouchMobile {
-    display: none;
-  }
+    display: none; }
 
   .getInTouchImage {
-    display: block;
-  }
-}
+    display: block; } }
 
 /*# sourceMappingURL=home.css.map */
