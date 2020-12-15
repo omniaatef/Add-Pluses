@@ -54,9 +54,8 @@
     }
 
     .paddingFooter{
-        margin-left: 3rem;
+        margin-left: 5rem;
         line-height: 1.6rem;
-        padding-left: 4rem;
         margin-right: 0;
         width: auto;
     }
@@ -64,6 +63,12 @@
     .websiteContentFooter{
         width: inherit;
         margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .paddingFooter{
+        margin-left: 6rem;
     }
 }
 

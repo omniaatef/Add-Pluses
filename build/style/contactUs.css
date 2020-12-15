@@ -143,8 +143,8 @@ button:hover {
 
   .getDirectionsBtn {
     position: absolute;
-    top: 60%;
-    left: 60%;
+    top: 66%;
+    left: 75%;
   }
 
   .getInTouch {
@@ -171,6 +171,12 @@ button:hover {
 
   .containerGetInTouch {
     margin-left: 8.5rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .getDirectionsBtn {
+    top: 60%;
+    left: 60%;
   }
 }
 #positionsOptions {
