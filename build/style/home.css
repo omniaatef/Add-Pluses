@@ -62,7 +62,7 @@ img {
 }
 
 .websiteNumbersImage {
-  padding: 4rem;
+  margin: 4rem;
 }
 
 .websiteNumbersContent h2 {
@@ -76,7 +76,7 @@ img {
 }
 
 .websiteServicesImage {
-  padding: 4rem;
+  margin: 4rem;
   position: sticky;
   top: 2rem;
 }
@@ -187,7 +187,7 @@ form.newsletterForm button:hover {
 }
 
 .getInTouchImage {
-  padding: 4rem;
+  margin: 4rem;
 }
 
 .getInTouchForm input, .getInTouchForm textarea {
@@ -770,7 +770,7 @@ form.newsletterForm button:hover {
 
   .websiteWorkImage {
     display: block;
-    padding: 4rem;
+    margin: 4rem;
     position: sticky;
     top: 2rem;
   }
