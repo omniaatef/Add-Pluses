@@ -63,6 +63,7 @@ button:hover {
     border-bottom: 3px solid #4285f4;
     border-width: thick;
     padding-bottom: 0.5rem;
+    line-height: 3.5rem;
   }
 
   .addplusesNumbers span {
