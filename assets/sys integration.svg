@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 112 108" style="enable-background:new 0 0 112 108;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#4285F4;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>
-<g>
-	<path class="st0" d="M37.5,77.4c4.8,4.7,11.3,7.5,18.5,7.5s13.7-2.9,18.5-7.5"/>
-	<path class="st0" d="M47.3,33.4C36.9,37,29.4,46.9,29.4,58.5c0,1.2,0.1,2.3,0.2,3.4"/>
-	<path class="st0" d="M82.3,61.8c0.1-1.1,0.2-2.3,0.2-3.4c0-11.6-7.5-21.5-17.9-25.1"/>
-	<circle class="st0" cx="56" cy="31.9" r="8.9"/>
-	<circle class="st0" cx="32.4" cy="70.2" r="8.9"/>
-	<circle class="st0" cx="79.6" cy="70.2" r="8.9"/>
-</g>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="172.36" height="195.92" viewBox="0 0 172.36 195.92"><defs><style>.cls-1{fill:none;stroke:#4285f4;stroke-linecap:round;stroke-linejoin:round;stroke-width:4.94px;}</style></defs><title>sys integration-02</title><path class="cls-1" d="M55.72,149.85A43.21,43.21,0,0,0,86.18,162.2a43.93,43.93,0,0,0,30.46-12.35"/><path class="cls-1" d="M71.86,77.4a43.82,43.82,0,0,0-29.47,41.33c0,2,.16,3.79.33,5.6"/><path class="cls-1" d="M129.48,124.16c.16-1.81.33-3.79.33-5.6a43.82,43.82,0,0,0-29.47-41.33"/><circle class="cls-1" cx="86.18" cy="74.93" r="14.65"/><circle class="cls-1" cx="47.32" cy="138" r="14.65"/><circle class="cls-1" cx="125.04" cy="138" r="14.65"/></svg>
