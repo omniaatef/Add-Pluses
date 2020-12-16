@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ADD PLUSES</title>
-        <meta charset="utf-8">
+        <meta name="title" content="ADD PLUSES - Misr elkhier project">
+        <meta name="og:image" content="../../../assets/slides/MisrKhier/1.png">
         <meta name="description" content="ADD pluses is a fully integrated creative technology house based in Cairo, Egypt, we have been passionate about helping brands and 
         startups embrace new technologies on the web, social media and mobile phones.">
+        <title>ADD PLUSES</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -146,11 +148,9 @@
 
                     <div class="sharingIcons">
                         <span>Share: </span>
-                        <a href=""><i class="fa fa-envelope"></i></a>
-                        <a href=""><i class="fa fa-facebook"></i></a>
-                        <a href=""><i class="fa fa-twitter"></i></a>
-                        <a href=""><i class="fa fa-instagram"></i></a>
-
+                        <a href="" class="facebook-share" data-js="facebook-share"><i class="fa fa-facebook"></i></a>
+                        <a href="" class="twitter-share" data-js="twitter-share"><i class="fa fa-twitter"></i></a>
+                        <a href="mailto:?subject=ADD PLUSES - Misr elkhier project&amp;body=www.addpluses.com/projects/MisrKhier.html" title="Share by Email"><i class="fa fa-envelope"></i></a>
                     </div>
                         
                 </div>
@@ -250,6 +250,25 @@
                 $("#myCarousel").carousel("next");
                 });
             });
+
+            var twitterShare = document.querySelector('[data-js="twitter-share"]');
+
+            twitterShare.onclick = function(e) {
+            e.preventDefault();
+            var twitterWindow = window.open('https://twitter.com/share?url=' + document.URL, 'twitter-popup', 'height=350,width=600');
+            if(twitterWindow.focus) { twitterWindow.focus(); }
+                return false;
+            }
+
+            var facebookShare = document.querySelector('[data-js="facebook-share"]');
+
+            facebookShare.onclick = function(e) {
+            e.preventDefault();
+            var facebookWindow = window.open('https://www.facebook.com/sharer/sharer.php?u=' + document.URL, 'facebook-popup', 'height=350,width=600');
+            if(facebookWindow.focus) { facebookWindow.focus(); }
+                return false;
+            }        
+            
         </script>
                 
     </body>
